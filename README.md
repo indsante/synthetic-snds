@@ -4,7 +4,9 @@ Ce dépôt héberge une version synthétique du SNDS.
  
 Ces données sont générées avec la librairie [tsfaker](https://gitlab.com/healthdatahub/tsfaker), à partir du schéma du SNDS décrit dans [un dépôt GitLab dédié](https://gitlab.com/healthdatahub/schema-snds). 
 
-Note : Ce schéma est également exposé dans un [dictionnaire interactif ](https://drees.shinyapps.io/dico-snds/), et via la partie Tables de la [documentation collaborative](https://documentation-snds.health-data-hub.fr/).
+Notes : 
+- Ce schéma est également exposé dans un [dictionnaire interactif ](https://drees.shinyapps.io/dico-snds/), et via la partie Tables de la [documentation collaborative](https://documentation-snds.health-data-hub.fr/).
+- Ce schéma est incomplet, ce qui se reflète dans les données synthétiques, en particulier par les colonnes qui sont des chaînes de caractère aléatoires
 
 ## Organisation du dépôt
 
