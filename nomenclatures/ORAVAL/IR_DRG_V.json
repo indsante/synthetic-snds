@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "DRG_NAT",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "DRG_NAT_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "DRG_TIE_PAY",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "TEC_COL",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "IR_DRG_V",
+    "title": "Nature de destinataire du règlement",
+    "primaryKey":[
+        "DRG_NAT"
+    ]
+}

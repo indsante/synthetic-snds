@@ -1,0 +1,105 @@
+{
+    "fields": [
+        {
+            "name": "LPP_PRS_IDE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LPP_RED_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        },
+        {
+            "name": "LPP_VAL_DTF",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "LPP_MAX_AGE",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_PRS_TYP",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "LPP_MED_IND",
+            "type": "string",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_CHA",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC1",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC2",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC3",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC4",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC5",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC6",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC7",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC8",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_SC9",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "LPP_ARB_BAS",
+            "type": "number",
+            "format": "default"
+        },
+        {
+            "name": "LPP_PRO_COD",
+            "type": "string",
+            "format": "default"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "NT_LPP",
+    "title": "Liste des produits et prestations",
+    "description": "Source http://www.codage.ext.cnamts.fr/codif/tips//telecharge/index_tele.php?p_site=AMELI",
+    "primaryKey": [
+        "LPP_PRS_IDE"
+    ]
+}

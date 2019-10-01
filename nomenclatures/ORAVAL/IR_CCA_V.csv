@@ -1,0 +1,32 @@
+CCA_CPL_COD;CCA_CPL_LIB;TEC_COL
+0;SANS OBJET;2
+10;Frais de  déplacement;0
+11;Supplément cure thermale;0
+12;Forfait journalier;0
+13;Supplément hospitalier;0
+14;Majoration KCC;0
+15;Forfait radio/écho;0
+16;Participation forfaitaire;0
+17;Majoration nourrisson;0
+18;Majoration de coordination;0
+19;Majoration P;0
+1;Majoration Nuit;0
+21;Majoration pharmacie;0
+22;Majoration consultation;0
+23;Majoration spécifique;0
+24;Majoration TM hors parcours de soins;0
+25;Majoration faute inexcusable de l'employeur;0
+26;Complément consultation spécialiste;0
+27;Complément LPP et Dentaire (dont AT);0
+28;Complément rémunération PS;0
+29;Supplément dérogatoire et prestations CNMSS;0
+2;Majoration Dimanche/Férié;0
+32;Majoration Auxiliaires Médicaux;0
+3;Urgences;0
+4;Majoration de jour;0
+5;Majoration pédiatrique;0
+6;Majoration clinicien;0
+7;Majoration accouchement;0
+8;Majoration KC;0
+99;VALEUR INCONNUE;1
+9;Majoration ZN;0
