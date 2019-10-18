@@ -10,6 +10,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -25,6 +27,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 3
             }
@@ -39,6 +43,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 11
             }
@@ -53,6 +59,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 32
             }
@@ -67,6 +75,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 11
             }
@@ -81,6 +91,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 32
             }
@@ -95,6 +107,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 5
             }
@@ -109,6 +123,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 5
             }
@@ -123,6 +139,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -138,6 +156,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -153,6 +173,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 9
             }
@@ -167,6 +189,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 32
             }
@@ -181,6 +205,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000
@@ -195,7 +221,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_NUM",
@@ -207,6 +235,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -222,6 +252,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -237,6 +269,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -251,7 +285,9 @@
             "format": "default",
             "dateCreated": "2007",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CLE_NUM",
@@ -263,6 +299,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 9
             }
@@ -277,6 +315,8 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -292,15 +332,74 @@
             "dateCreated": "2007",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
+            }
+        },
+        {
+            "name": "TRS_DTF_DTE",
+            "description": "Date d'arrivée du transport",
+            "type": "date",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "TRS_DTD_AME",
+            "description": "Année et mois de départ du transport (format AAAAMM)",
+            "type": "string",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 6
+            }
+        },
+        {
+            "name": "TRS_DTD_DTE",
+            "description": "Date de départ du transport",
+            "type": "date",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "TRS_DTF_AME",
+            "description": "Année et mois d'arrivée du transport (format AAAAMM)",
+            "type": "string",
+            "length": "6",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 6
             }
         }
     ],
     "name": "ER_TRS_F",
     "title": "Table des données détaillées de transport",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -410,5 +509,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

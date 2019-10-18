@@ -5,55 +5,80 @@
             "description": "Type d'enregistrement",
             "type": "string",
             "nomenclature": "MS_ENR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "ETA_NUM_EPMSI",
             "description": "Numéro FINESS de l’entité juridique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "ETA_NUM_TWO",
             "description": "Numéro FINESS de l’établissement (site géographique)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "RIP_NUM",
             "description": "Numéro séquentiel de séjour (idem RPSA)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 6
+            }
         },
         {
             "name": "FAC_NUM",
             "description": "N° séquentiel de facture",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "DEL_DAT_ENT",
@@ -63,52 +88,74 @@
             "length": null,
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_MOI",
             "description": "Mois de la date de début de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "ENT_ANN",
             "description": "Année de la date de début de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "SOR_MOI",
             "description": "Mois de la date de fin de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "SOR_ANN",
             "description": "Année de la date de fin de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "SEJ_DUR",
@@ -117,36 +164,47 @@
             "nomenclature": "-",
             "length": null,
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2010",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "SEJ_FIN",
             "description": "Nature d'interruption ou de fin de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "ETB_NUM",
             "description": "Etablissement de transfert ou de retour ou lieu d'exécution de l'acte",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "14",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 14
+            }
         }
     ],
     "name": "T_RIPaa_nnFI",
     "title": "interruption de sejour",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -180,7 +238,9 @@
     ],
     "history": {
         "dateCreated": "2010",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

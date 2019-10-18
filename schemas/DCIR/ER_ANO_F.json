@@ -10,6 +10,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 3
             }
@@ -24,6 +26,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 10
             }
@@ -38,6 +42,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 50
             }
@@ -52,6 +58,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 50
             }
@@ -66,6 +74,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 11
             }
@@ -80,6 +90,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 50
             }
@@ -94,6 +106,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 10
             }
@@ -108,6 +122,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -123,6 +139,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -137,7 +155,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_NUM",
@@ -149,6 +169,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -164,6 +186,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -179,6 +203,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -193,7 +219,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CLE_NUM",
@@ -205,6 +233,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 9
             }
@@ -219,6 +249,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -234,6 +266,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -242,7 +276,6 @@
     ],
     "name": "ER_ANO_F",
     "title": "Table des anomalies",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -364,5 +397,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

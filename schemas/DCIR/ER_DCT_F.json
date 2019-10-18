@@ -9,7 +9,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCT_ARR_DTE",
@@ -20,7 +22,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCT_CTL_COD",
@@ -32,6 +36,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -47,6 +53,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -61,6 +69,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -75,6 +85,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 15
             }
@@ -89,6 +101,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -104,6 +118,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 2
             }
@@ -117,7 +133,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCT_MUT_CMP",
@@ -129,6 +147,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -143,6 +163,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -157,7 +179,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "DCT_RGU_SNS",
@@ -169,6 +193,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -183,6 +209,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 3
             }
@@ -197,6 +225,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -211,7 +241,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_NUM",
@@ -223,6 +255,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -238,6 +272,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -253,6 +289,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -267,7 +305,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CLE_NUM",
@@ -279,6 +319,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 9
             }
@@ -293,6 +335,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -308,6 +352,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -316,7 +362,6 @@
     ],
     "name": "ER_DCT_F",
     "title": "Table des données de décompte",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -558,5 +603,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

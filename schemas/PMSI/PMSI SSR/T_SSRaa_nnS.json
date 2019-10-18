@@ -5,190 +5,297 @@
             "description": "FINESS",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "RHA_VER",
             "description": "Version du Format du SRHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "GEN_VER",
             "description": "Version de GENRHA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "RHA_NUM",
             "description": "N° Séquentiel du séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "7",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 7
+            }
         },
         {
             "name": "SUI_TYP",
             "description": "Type de suite",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "SEJ_NBJ",
             "description": "Durée du séjour",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": null,
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000
-            }
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "PRE_JOU_NBR",
             "description": "Nombre de journées de présence",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": null,
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000
-            }
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_MOD",
             "description": "Mode d’entrée",
             "type": "string",
             "nomenclature": "MS_SOR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "ENT_PRV",
             "description": "Provenance",
             "type": "string",
             "nomenclature": "MS_PRV_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "SOR_MOD",
             "description": "Mode de sortie",
             "type": "string",
             "nomenclature": "MS_SOR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "SOR_DES",
             "description": "Destination",
             "type": "string",
             "nomenclature": "MS_PRV_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "ACT_TYP",
             "description": "Type d’hospitalisation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "NBR_MUT",
             "description": "Nombre de mutations",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": null,
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000
-            }
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_RHA",
             "description": "Nombre de RHA",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": null,
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000
-            }
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "NBR_GME",
             "description": "Nombre de GME (ng)",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": null,
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "NBR_CM",
+            "description": "Nombre de CM (nc)",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "NBR_UM",
+            "description": "Nombre d’unité médicale",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2009",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "DUMMY",
+            "description": "DUMMY",
+            "type": "string",
+            "length": "1024",
+            "dateCreated": "2011",
+            "dateDeleted": "2012",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
-                "minimum": 0,
-                "maximum": 100000
+                "maximum": 1024
             }
+        },
+        {
+            "name": "NBR_CMC",
+            "description": "Nombre de CMC (nc)",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "NBR_GHJ",
+            "description": "Nombre de GHJ (ng)",
+            "type": "number",
+            "length": null,
+            "dateCreated": "2005",
+            "dateDeleted": "2013",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_SSRaa_nnS",
     "title": "synthese",
-    "description": "Champ : Public et Privé",
     "produit": "PMSI SSR",
     "missingValues": [
         ""
@@ -257,8 +364,10 @@
         }
     ],
     "history": {
-        "dateCreated": "2006",
-        "dateDeleted": "2017",
+        "dateCreated": "2005",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public et Privé",
+    "observation": ""
 }

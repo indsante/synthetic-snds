@@ -8,8 +8,10 @@
             "length": "5",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -20,11 +22,16 @@
             "description": "Mois et année de l'acte",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 6
+            }
         },
         {
             "name": "DEL_DAT_ENT",
@@ -34,101 +41,158 @@
             "length": null,
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_EPMSI",
             "description": "N° FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "ETA_NUM_GEO",
             "description": "Numéro FINESS  géographique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "FAC_NUM",
             "description": "N° Facture séquentiel",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 5
+            }
         },
         {
             "name": "NABM_COD",
             "description": "Code acte NABM",
             "type": "string",
             "nomenclature": "IR_BIO_R",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 8
+            }
         },
         {
             "name": "PSH_DMT",
             "description": "Discipline de prestation (ex DMT)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "PSH_MDT",
             "description": "Mode de traitement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "RHAD_NUM",
             "description": "N° séquentiel",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 5
+            }
         },
         {
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
             "nomenclature": "MS_ENR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2012",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
+        },
+        {
+            "name": "ETA_NUM_TWO",
+            "description": "Numéro FINESS de l’établissement (site géographique)",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
             "dateDeleted": "2017",
-            "dateMissing": []
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         }
     ],
     "name": "T_HADaa_nnFL",
     "title": "Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN",
-    "description": "Champ : Privé",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -174,7 +238,9 @@
     ],
     "history": {
         "dateCreated": "2012",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

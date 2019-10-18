@@ -5,55 +5,80 @@
             "description": "Type d'enregistrement",
             "type": "string",
             "nomenclature": "MS_ENR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "ETA_NUM_EPMSI",
             "description": "Numéro FINESS de l’entité juridique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "ETA_NUM_TWO",
             "description": "Numéro FINESS de l’établissement (site géographique)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "RIP_NUM",
             "description": "Numéro séquentiel de séjour (idem RPSA)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 6
+            }
         },
         {
             "name": "FAC_NUM",
             "description": "N° séquentiel de facture",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "DEL_DAT_ENT",
@@ -63,41 +88,58 @@
             "length": null,
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ENT_MOI",
             "description": "Mois de la date de début de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "ENT_ANN",
             "description": "Année de la date de début de séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "LPP_COD",
             "description": "Code référence LPP",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "13",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 13
+            }
         },
         {
             "name": "LPP_QUA",
@@ -107,8 +149,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_PU_DEV",
@@ -118,8 +162,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAC_MNT",
@@ -129,8 +175,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "LPP_PRI_UNI",
@@ -140,8 +188,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "MNT_UNI_ECA",
@@ -151,8 +201,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TOT_MNT_ECA",
@@ -162,8 +214,10 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "TIP_PRS_IDE",
@@ -173,13 +227,14 @@
             "length": null,
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         }
     ],
     "name": "T_RIPaa_nnFP",
     "title": "prothese",
-    "description": "Champ : Privé",
     "produit": "PMSI RIM-P",
     "missingValues": [
         ""
@@ -225,7 +280,9 @@
     ],
     "history": {
         "dateCreated": "2010",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

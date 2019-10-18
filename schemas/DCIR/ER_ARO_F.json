@@ -10,6 +10,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -25,6 +27,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -40,6 +44,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -55,6 +61,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -70,6 +78,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -78,16 +88,19 @@
         {
             "name": "ARO_MIN_TAU",
             "description": "Taux modulé (hors parcours de Soins) du remboursement (autre que régime obligatoire)",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "-",
-            "length": "12",
+            "length": "7,2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000000
+                "maximum": 10000000,
+                "decimals": 2
             }
         },
         {
@@ -100,6 +113,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -116,6 +131,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -131,6 +148,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -146,6 +165,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -162,6 +183,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -178,6 +201,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000000,
@@ -194,6 +219,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -202,16 +229,19 @@
         {
             "name": "ARO_REM_TAU",
             "description": "Taux réel de remboursement (autre que régime obligatoire)",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "IR_TAU_V",
-            "length": "12",
+            "length": "7,2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000000
+                "maximum": 10000000,
+                "decimals": 2
             }
         },
         {
@@ -224,6 +254,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La ligne de prestation contient des informations concernant le remboursement de la part complémentaire (autre que le régime obligatoire)",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -239,6 +271,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -254,6 +288,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 3
             }
@@ -268,6 +304,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -282,7 +320,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_NUM",
@@ -294,6 +334,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -309,6 +351,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -324,6 +368,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -338,7 +384,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CLE_NUM",
@@ -350,6 +398,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 9
             }
@@ -364,6 +414,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -379,6 +431,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -387,7 +441,6 @@
     ],
     "name": "ER_ARO_F",
     "title": "Table des données de remboursements complémentaires",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -617,5 +670,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

@@ -10,6 +10,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 3
             }
@@ -24,6 +26,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000000000,
@@ -40,6 +44,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -55,6 +61,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 3
             }
@@ -69,6 +77,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "Cette variable contient le prix unitaire de l'unité délivrée dans le cadre du déconditionnement (PHA_DEC_TOP = D). Ce prix unitaire correspond au prix du conditionnement divisé par le nombre d'unités de ce conditionnement. Cette zone doit obligatoirement être renseignée si le top déconditionnement est égal à la valeur D (PHA_DEC_TOP = D).  Exemple fictif :  Un pharmacien délivre 20 comprimés d'un produit SUBUTEX 0,4MG CPR (CIP 13 = 3400933944421). Le produit est conditionné par boîte de 7 comprimés. Le prix unitaire du comprimé = 2,89 euros (prix de la boite) - 7 = 0,41 euro (règle darrondi).",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000,
@@ -85,6 +95,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "Cette variable correspond au nombre d'unités fractionnées de médicament délivrées (exemple : le nombre de comprimés) dans le cadre du déconditionnement (PHA_DEC_TOP = D).",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -100,6 +112,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -114,6 +128,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000
@@ -129,6 +145,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -143,6 +161,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -158,6 +178,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000000000000
@@ -173,6 +195,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000000
@@ -188,6 +212,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -203,6 +229,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -218,6 +246,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000
@@ -232,7 +262,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_NUM",
@@ -244,6 +276,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -259,6 +293,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -274,6 +310,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -288,7 +326,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CLE_NUM",
@@ -300,6 +340,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 9
             }
@@ -314,6 +356,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -329,6 +373,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -337,7 +383,6 @@
     ],
     "name": "ER_PHA_F",
     "title": "Table des données de codage de pharmacie",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -519,5 +564,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

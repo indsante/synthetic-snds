@@ -8,30 +8,42 @@
             "length": null,
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ADM_ANN",
             "description": "Année de la date d'administration",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "ADM_MOIS",
             "description": "Mois de la date d'administration",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "ADM_NBR",
@@ -41,8 +53,10 @@
             "length": "5",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -53,11 +67,16 @@
             "description": "Année période",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "DAT_DELAI",
@@ -67,63 +86,90 @@
             "length": null,
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ETA_NUM_EPMSI",
             "description": "N° FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "INI_VAL_PRS",
             "description": "Validation initiale de la prescription par un centre de référence ou de compétence",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2010",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "MOIS",
             "description": "N° période (mois)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "PRS_TYP",
             "description": "Type de prestation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "RHAD_NUM",
             "description": "N° séquentiel de séjour d'HAD",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 5
+            }
         },
         {
             "name": "SEJ_NBR",
@@ -133,8 +179,10 @@
             "length": "5",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -145,44 +193,64 @@
             "description": "Numéro de la séquence dans le séjour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "SSEQ_NUM",
             "description": "Numéro de sous-séquence",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "TOP_UCD_AUTO",
             "description": "Top transcodage UCD13 auto",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "UCD_UCD_COD",
             "description": "Code UCD",
             "type": "string",
             "nomenclature": "NU_UCD_R",
-            "length": null,
+            "length": "13",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 13
+            }
         },
         {
             "name": "COD_LES",
@@ -193,12 +261,29 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "UCD_COD",
+            "description": "Code UCD",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2009",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         }
     ],
     "name": "T_HADaa_nnMED",
     "title": "Table Molécules onéreuses (fichier COMP)",
-    "description": "Champ : Public",
     "produit": "PMSI HAD",
     "missingValues": [
         ""
@@ -232,7 +317,9 @@
     ],
     "history": {
         "dateCreated": "2009",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public",
+    "observation": ""
 }

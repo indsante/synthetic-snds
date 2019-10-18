@@ -5,58 +5,80 @@
             "description": "Année période",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "ETA_NUM",
             "description": "N° FINESS",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "ETA_NUM_ENT",
             "description": "N° FINESS du fichier d'entrée",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "MOI",
             "description": "N° période (mois)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "NBR_PRS",
             "description": "Nombre de suppléments DIP",
             "type": "integer",
             "nomenclature": "-",
-            "length": "5",
+            "length": "10",
             "format": "default",
             "dateCreated": "2011",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 10000000000
             }
         },
         {
@@ -64,38 +86,68 @@
             "description": "Code Prestation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "PRS_TYP",
             "description": "Type de prestation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "RSA_NUM",
             "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "10",
             "format": "default",
             "dateCreated": "2009",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 10
+            }
+        },
+        {
+            "name": "FAC_SEM_NBR",
+            "description": "Nombre de semaine facturées",
+            "type": "string",
+            "length": "3",
+            "dateCreated": "2009",
+            "dateDeleted": "2011",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         }
     ],
     "name": "T_MCOaa_nnDIALP",
     "title": "Fich comp dialyse péritonéale en sus",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -117,7 +169,9 @@
     ],
     "history": {
         "dateCreated": "2009",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public",
+    "observation": ""
 }
