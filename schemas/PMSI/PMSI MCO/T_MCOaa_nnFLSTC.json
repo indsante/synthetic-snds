@@ -5,14 +5,16 @@
             "description": "Quantité acte",
             "type": "integer",
             "nomenclature": "-",
-            "length": "5",
+            "length": "2",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 100
             }
         },
         {
@@ -20,126 +22,181 @@
             "description": "Mois et année",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "6",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 6
+            }
         },
         {
             "name": "DEL_DAT_ENT",
             "description": "délai par rapport à la date d'entrée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000
+            }
         },
         {
             "name": "ETA_NUM",
             "description": "Numéro FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "ETA_NUM_GEO",
             "description": "Numéro FINESS géographique",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2016",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "NABM_COD",
             "description": "Code acte",
             "type": "string",
             "nomenclature": "IR_BIO_R",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 8
+            }
         },
         {
             "name": "NUM_FAC",
             "description": "N° Facture séquentiel",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "PSH_DMT",
             "description": "Discipline de prestation (ex DMT)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "PSH_MDT",
             "description": "Mode de traitement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "RSF_TYP",
             "description": "Type de format RSF (1 : ancien, 2 : nouveau)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "SEQ_NUM",
             "description": "N° séquentiel",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "8",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 8
+            }
         },
         {
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
             "nomenclature": "MS_ENR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         }
     ],
     "name": "T_MCOaa_nnFLSTC",
     "title": "ACE biologie NABM",
-    "description": "Champ : Public",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -185,7 +242,9 @@
     ],
     "history": {
         "dateCreated": "2012",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public",
+    "observation": "Mise en colonnes des actes en 2015 (pr toutes les années); les HCL ne pas transmettent plus d'ACE au niveau finess géo à partir de 2015"
 }

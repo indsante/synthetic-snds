@@ -5,47 +5,67 @@
             "description": "Code acte",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 5
+            }
         },
         {
             "name": "ACT_COE",
             "description": "Coefficient",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "6,2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000,
+                "decimals": 2
+            }
         },
         {
             "name": "ACT_DNB",
             "description": "Dénombrement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "ACT_NBR",
             "description": "Quantité",
             "type": "integer",
             "nomenclature": "-",
-            "length": "5",
+            "length": "2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
+            "dateCreated": "2005",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 100
             }
         },
         {
@@ -53,225 +73,338 @@
             "description": "Montant remboursable par AMC",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "6,2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000,
+                "decimals": 2
+            }
         },
         {
             "name": "AMO_MNR",
             "description": "Montant Remboursable par AMO",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "7,2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000000,
+                "decimals": 2
+            }
         },
         {
             "name": "DEL_DAT_ENT",
             "description": "Délai par rapport à la date d'entrée",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "5",
             "format": "default",
             "dateCreated": "2013",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000
+            }
         },
         {
             "name": "ETA_NUM",
             "description": "Numéro FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "EXE_SPE",
             "description": "Spécialité exécutant",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "EXO_TM",
             "description": "Justification exo TM",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "HON_MNT",
             "description": "Montant des honoraire (dépassement compris)",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "7,2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000000,
+                "decimals": 2
+            }
         },
         {
             "name": "NOE_MNR",
             "description": "Montant remboursé NOEMIE Retour",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "8,2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000000,
+                "decimals": 2
+            }
         },
         {
             "name": "NOE_OPE",
             "description": "Nature opération récupération NOEMIE Retour",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "NUM_FAC",
             "description": "N° séquentiel de facture",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "PRI_UNI",
             "description": "Prix Unitaire",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "7,2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000000,
+                "decimals": 2
+            }
         },
         {
             "name": "PSH_DMT",
             "description": "Discipline de prestation (ex DMT)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
         },
         {
             "name": "PSH_MDT",
             "description": "Mode de traitement",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "REM_BAS",
             "description": "Montant Base remboursement",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "7,2",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000000,
+                "decimals": 2
+            }
         },
         {
             "name": "REM_TAU",
             "description": "Taux Remboursement",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "3",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000
+            }
         },
         {
             "name": "RSA_NUM",
-            "description": " N° séquentiel (le même que pour les RSA)",
+            "description": "N° séquentiel (le même que pour les RSA)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "10",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 10
+            }
         },
         {
             "name": "RSF_TYP",
             "description": "Type de format RSF (1 : ancien, 2 : nouveau)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "SOR_ANN",
             "description": "Année de l'acte",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "SOR_MOI",
             "description": "Mois de l'acte",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2008",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "TYP_ART",
             "description": "Type d'enregistrement",
             "type": "string",
             "nomenclature": "MS_ENR_V",
-            "length": null,
+            "length": "1",
             "format": "default",
-            "dateCreated": "2006",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateCreated": "2005",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         }
     ],
     "name": "T_MCOaa_nnFC",
     "title": "OQN Honoraire",
-    "description": "Champ : Privé",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -304,8 +437,10 @@
         }
     ],
     "history": {
-        "dateCreated": "2006",
-        "dateDeleted": "2017",
+        "dateCreated": "2005",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Privé",
+    "observation": ""
 }

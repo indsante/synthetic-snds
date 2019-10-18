@@ -5,36 +5,49 @@
             "description": "Année de la date d'administration",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "ADM_MOIS",
             "description": "Mois de la date d'administration",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "ADM_NBR",
             "description": "Nombre administré éventuellement fractionnaire",
-            "type": "integer",
+            "type": "number",
             "nomenclature": "-",
-            "length": "5",
+            "length": "10,3",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 10000000000,
+                "decimals": 3
             }
         },
         {
@@ -42,113 +55,163 @@
             "description": "Prix d'achat multiplié par le nombre administré",
             "type": "number",
             "nomenclature": "-",
-            "length": null,
+            "length": "10,3",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000000000,
+                "decimals": 3
+            }
         },
         {
             "name": "ANN",
             "description": "Année période",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 4
+            }
         },
         {
             "name": "DAT_DELAI",
             "description": "Délai entre la date d’entrée du séjour et la date de dispensation",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
-            "length": null,
+            "length": "4",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000
+            }
         },
         {
             "name": "ETA_NUM",
             "description": "N° FINESS e-PMSI",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "ETA_NUM_ENT",
             "description": "N° FINESS du fichier d'entrée",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "9",
             "format": "default",
             "dateCreated": "2017",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         },
         {
             "name": "INI_VAL_PRS",
             "description": "Validation initiale de la prescription par un centre de référence ou de compétence",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "MOI",
             "description": "N° période (mois)",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "PRS_TYP",
             "description": "Type de prestation",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "2",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 2
+            }
         },
         {
             "name": "RSA_NUM",
             "description": "N° d'index du RSA",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "10",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 10
+            }
         },
         {
             "name": "SEJ_NBR",
             "description": "Nombre de séjours impliqués",
             "type": "integer",
             "nomenclature": "-",
-            "length": "5",
+            "length": "6",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
+            "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 1000000
             }
         },
         {
@@ -156,27 +219,52 @@
             "description": "Top transcodage UCD13 auto",
             "type": "string",
             "nomenclature": "-",
-            "length": null,
+            "length": "1",
             "format": "default",
             "dateCreated": "2015",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         },
         {
             "name": "UCD_UCD_COD",
             "description": "Code UCD",
             "type": "string",
             "nomenclature": "NU_UCD_R",
-            "length": null,
+            "length": "13",
             "format": "default",
             "dateCreated": "2012",
-            "dateDeleted": "2017",
-            "dateMissing": []
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 13
+            }
+        },
+        {
+            "name": "UCD_COD",
+            "description": "Code UCD",
+            "type": "string",
+            "length": "9",
+            "dateCreated": "2012",
+            "dateDeleted": "2015",
+            "nomenclature": "-",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 9
+            }
         }
     ],
     "name": "T_MCOaa_nnMEDTHROMBO",
-    "title": "Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques ",
-    "description": "Champ : Public",
+    "title": "Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques",
     "produit": "PMSI MCO",
     "missingValues": [
         ""
@@ -210,7 +298,9 @@
     ],
     "history": {
         "dateCreated": "2012",
-        "dateDeleted": "2017",
+        "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "Public",
+    "observation": ""
 }

@@ -10,6 +10,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 17
             }
@@ -24,6 +26,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, ).",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -39,6 +43,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 17
             }
@@ -53,6 +59,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 18
             }
@@ -67,6 +75,8 @@
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -80,7 +90,9 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FAM_DRT_DSF",
@@ -91,12 +103,29 @@
             "format": "default",
             "dateCreated": "",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
+        },
+        {
+            "name": "IND_RNM_BEN",
+            "description": "Top RNIAM",
+            "type": "string",
+            "length": "1",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 1
+            }
         }
     ],
     "name": "IR_ACS_R",
     "title": "Table historique des affiliations à l'aide à la complémentaire santé",
-    "description": "",
     "produit": "DCIR_DCIRS",
     "missingValues": [
         ""
@@ -143,5 +172,7 @@
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }

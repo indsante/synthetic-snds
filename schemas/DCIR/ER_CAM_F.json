@@ -10,6 +10,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -24,6 +26,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000000,
@@ -40,6 +44,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -54,6 +60,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -68,6 +76,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -82,6 +92,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 4
             }
@@ -96,6 +108,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -111,6 +125,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 13
             }
@@ -125,6 +141,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 32
             }
@@ -139,6 +157,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000000,
@@ -155,6 +175,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 1
             }
@@ -169,6 +191,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -184,6 +208,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 3
             }
@@ -198,6 +224,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -212,7 +240,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "FLX_EMT_NUM",
@@ -224,6 +254,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -239,6 +271,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -254,6 +288,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -268,7 +304,9 @@
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
-            "dateMissing": []
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": ""
         },
         {
             "name": "ORG_CLE_NUM",
@@ -280,6 +318,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "maximum": 9
             }
@@ -294,6 +334,8 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -309,15 +351,248 @@
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
+            }
+        },
+        {
+            "name": "CAM_MI4_MNT",
+            "description": "Montant Minoration due à association sur Modificateur4",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MM4_MNT",
+            "description": "Montant Majoration Modificateur4",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_GRI_TAR",
+            "description": "Grille tarifaire",
+            "type": "string",
+            "length": "3",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "maximum": 3
+            }
+        },
+        {
+            "name": "CAM_SUP_MNT",
+            "description": "Montant supplément de Charge en Cabinet",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MI1_MNT",
+            "description": "Montant Minoration due à association sur Modificateur1",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_NRM_MNT",
+            "description": "Montant Non Rmb du à annulation du tarif pr acte non rmb",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MI3_MNT",
+            "description": "Montant Minoration due à association sur Modificateur3",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MM2_MNT",
+            "description": "Montant Majoration Modificateur2",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MM3_MNT",
+            "description": "Montant Majoration Modificateur3",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_RED_MNT",
+            "description": "Montant réduction Tarif due à praticien non conventionné",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "IR_FOR_V",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MPU_MNT",
+            "description": "Montant Minoration due à association sur PU de l' Acte",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MM1_MNT",
+            "description": "Montant Majoration Modificateur1",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "CAM_MI2_MNT",
+            "description": "Montant Minoration due à association sur Modificateur2",
+            "type": "number",
+            "length": "9,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "format": "default",
+            "observation": "",
+            "regle_gestion": "",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000,
+                "decimals": 2
             }
         }
     ],
     "name": "ER_CAM_F",
     "title": "Table des données de codage de la Classification Commune des Actes Médicaux",
-    "description": "",
     "produit": "DCIR",
     "missingValues": [
         ""
@@ -469,11 +744,25 @@
                 ]
             },
             "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "CAM_RED_MNT"
+            ],
+            "reference": {
+                "resource": "IR_FOR_V",
+                "fields": [
+                    "FOR_TAU_COD"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {
         "dateCreated": "",
         "dateDeleted": "",
         "dateMissing": []
-    }
+    },
+    "champ": "",
+    "observation": ""
 }
