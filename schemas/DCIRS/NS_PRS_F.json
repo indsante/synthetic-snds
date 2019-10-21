@@ -1471,7 +1471,7 @@
             "name": "PSP_ACT_SPE",
             "description": "Spécialité ou nature d'activité du professionnel de santé prescripteur",
             "type": "integer",
-            "nomenclature": "IR_SPE_V",
+            "nomenclature": "IR_SPA_D",
             "length": "2",
             "format": "default",
             "dateCreated": "",
@@ -2415,9 +2415,9 @@
                 "PSP_ACT_SPE"
             ],
             "reference": {
-                "resource": "IR_SPE_V",
+                "resource": "IR_SPA_D",
                 "fields": [
-                    "PFS_SPE_COD"
+                    "PFS_SPA_COD"
                 ]
             },
             "description": "Nomenclature"
