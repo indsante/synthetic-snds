@@ -12,6 +12,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 17
             }
@@ -28,6 +29,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, ).",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -44,7 +46,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "IMB_ALD_DTF",
@@ -57,7 +60,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "IMB_ALD_NUM",
@@ -71,6 +75,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -88,6 +93,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -105,6 +111,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -121,6 +128,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -137,6 +145,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -152,7 +161,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "MED_MTF_COD",
@@ -166,6 +176,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 5
             }
@@ -182,6 +193,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 10
             }
@@ -197,7 +209,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": "Dans la table IR_IMB_R, la variable UPD_DTE correspond à la date du dernier chargement.  Deux cas de figures :     1. Si création => nouvel enregistrement créé avec date d'insertion INS_DTE renseignée et date de mise à jour UPD_DTE manquante lors de la création initiale de l'enregistrement puis UPD_DTE renseignée à chaque nouveau chargement à l'identique (la date du dernier chargement écrase la précédente) ;     2. Si modification => insertion d'un nouvel enregistrement avec nouvelle date d'insertion INS_DTE et date de mise à jour UPD_DTE manquante à la création puis UPD_DTE renseignée à chaque nouveau chargement à l'identique."
+            "regle_gestion": "Dans la table IR_IMB_R, la variable UPD_DTE correspond à la date du dernier chargement.  Deux cas de figures :     1. Si création => nouvel enregistrement créé avec date d'insertion INS_DTE renseignée et date de mise à jour UPD_DTE manquante lors de la création initiale de l'enregistrement puis UPD_DTE renseignée à chaque nouveau chargement à l'identique (la date du dernier chargement écrase la précédente) ;     2. Si modification => insertion d'un nouvel enregistrement avec nouvelle date d'insertion INS_DTE et date de mise à jour UPD_DTE manquante à la création puis UPD_DTE renseignée à chaque nouveau chargement à l'identique.",
+            "type_oracle": "date"
         }
     ],
     "name": "IR_IMB_R",
