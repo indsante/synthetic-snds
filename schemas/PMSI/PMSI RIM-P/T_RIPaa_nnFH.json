@@ -12,6 +12,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -28,6 +29,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 9
             }
@@ -44,6 +46,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 9
             }
@@ -60,6 +63,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 6
             }
@@ -76,6 +80,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -91,7 +96,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ENT_MOI",
@@ -105,6 +111,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -121,6 +128,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 4
             }
@@ -137,6 +145,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 7
             }
@@ -152,7 +161,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ACH_PRI",
@@ -165,7 +175,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "MNT_UNI_ECA",
@@ -178,7 +189,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "TOT_MNT_ECA",
@@ -191,7 +203,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "QUA_COD",
@@ -204,7 +217,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FAC_TOT",
@@ -217,7 +231,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "UCD_UCD_COD",
@@ -231,6 +246,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 13
             }

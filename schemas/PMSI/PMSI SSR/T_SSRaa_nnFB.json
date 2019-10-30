@@ -12,6 +12,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 7
             }
@@ -28,6 +29,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -44,6 +46,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -60,6 +63,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -75,7 +79,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ETA_NUM",
@@ -89,6 +94,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 9
             }
@@ -104,7 +110,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PSH_MDT",
@@ -118,6 +125,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -134,6 +142,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -150,6 +159,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -166,6 +176,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 5
             }
@@ -181,7 +192,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "ACT_COE",
@@ -194,7 +206,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FJ_COD_PEC",
@@ -208,6 +221,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -223,7 +237,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "PRI_UNI",
@@ -236,7 +251,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "REM_BAS",
@@ -249,7 +265,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "REM_TAU",
@@ -262,7 +279,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "AMO_MNR",
@@ -275,7 +293,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "FAC_MNT",
@@ -288,7 +307,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "AMC_MNR",
@@ -301,7 +321,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "GHS_NUM",
@@ -315,6 +336,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 4
             }
@@ -330,7 +352,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "NOE_OPE",
@@ -344,6 +367,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -359,7 +383,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         },
         {
             "name": "SOIN_ANN",
@@ -372,7 +397,8 @@
             "dateDeleted": "2017",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "SOIN_MOI",
@@ -385,7 +411,8 @@
             "dateDeleted": "2017",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "string"
         },
         {
             "name": "ACT_DEL",
@@ -398,7 +425,8 @@
             "dateMissing": [],
             "format": "default",
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "number"
         }
     ],
     "name": "T_SSRaa_nnFB",

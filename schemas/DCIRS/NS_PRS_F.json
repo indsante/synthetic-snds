@@ -12,6 +12,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -29,6 +30,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -46,6 +48,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000,
@@ -64,6 +67,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000,
@@ -82,6 +86,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -99,6 +104,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -116,6 +122,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000,
@@ -134,6 +141,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000,
@@ -152,6 +160,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -169,6 +178,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -186,6 +196,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000,
@@ -204,6 +215,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000,
@@ -222,6 +234,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -239,6 +252,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -257,6 +271,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -274,6 +289,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -290,6 +306,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 9
             }
@@ -306,6 +323,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -322,6 +340,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -339,6 +358,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -355,6 +375,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 18
             }
@@ -371,6 +392,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -388,6 +410,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -405,6 +428,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -421,6 +445,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -437,6 +462,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -455,6 +481,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -473,6 +500,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -489,6 +517,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -505,6 +534,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000
@@ -522,6 +552,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -540,6 +571,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -558,6 +590,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -575,6 +608,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -592,6 +626,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -608,6 +643,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -625,6 +661,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -641,6 +678,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 8
             }
@@ -657,6 +695,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 8
             }
@@ -673,6 +712,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -690,6 +730,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -706,6 +747,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -723,6 +765,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -740,6 +783,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 1
             }
@@ -756,6 +800,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -773,6 +818,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -789,6 +835,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 4
             }
@@ -805,6 +852,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 4
             }
@@ -821,6 +869,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -837,6 +886,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 6
             }
@@ -853,6 +903,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 6
             }
@@ -868,7 +919,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "EXE_SOI_DTF",
@@ -881,7 +933,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "EXO_MTF",
@@ -895,6 +948,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -911,7 +965,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "FLX_EMT_TYP",
@@ -925,6 +980,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -941,7 +997,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "GRG_AFF_COD",
@@ -955,6 +1012,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -971,6 +1029,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -987,6 +1046,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -1003,6 +1063,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1020,6 +1081,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1037,6 +1099,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -1054,6 +1117,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 8
             }
@@ -1070,6 +1134,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 8
             }
@@ -1086,6 +1151,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -1102,6 +1168,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 6
             }
@@ -1117,7 +1184,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "PRS_ACT_COG",
@@ -1131,6 +1199,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000000000,
@@ -1149,6 +1218,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -1166,6 +1236,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000
@@ -1183,6 +1254,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -1201,6 +1273,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 2
             }
@@ -1217,6 +1290,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 6
             }
@@ -1232,7 +1306,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "PRS_HOS_AMD",
@@ -1246,6 +1321,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 6
             }
@@ -1261,7 +1337,8 @@
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
-            "regle_gestion": ""
+            "regle_gestion": "",
+            "type_oracle": "date"
         },
         {
             "name": "PRS_MTT_NUM",
@@ -1275,6 +1352,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 8
             }
@@ -1291,6 +1369,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10000
@@ -1308,6 +1387,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -1326,6 +1406,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1343,6 +1424,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -1360,6 +1442,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -1377,6 +1460,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1394,6 +1478,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1411,6 +1496,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -1428,6 +1514,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1445,6 +1532,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1462,6 +1550,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1479,6 +1568,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1496,6 +1586,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 10
@@ -1513,6 +1604,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 10
             }
@@ -1529,6 +1621,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1546,6 +1639,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1563,6 +1657,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 1000
@@ -1580,6 +1675,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1597,6 +1693,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100
@@ -1614,6 +1711,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000,
@@ -1632,6 +1730,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -1648,6 +1747,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,
@@ -1666,6 +1766,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
                 "maximum": 100000000000,

@@ -12,6 +12,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 7
             }
@@ -28,6 +29,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 9
             }
@@ -44,6 +46,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 8
             }
@@ -60,6 +63,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 40
             }
@@ -76,6 +80,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 80
             }
@@ -92,6 +97,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 3
             }
@@ -108,6 +114,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
+            "type_oracle": "string",
             "constraints": {
                 "maximum": 20
             }
