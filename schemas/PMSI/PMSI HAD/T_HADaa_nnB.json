@@ -1218,13 +1218,6 @@
             }
         },
         {
-            "fields": "ETA_NUM_EPMSI",
-            "reference": {
-                "resource": "T_HADaa_nnEHPA",
-                "fields": "ETA_NUM_EPMSI"
-            }
-        },
-        {
             "fields": [
                 "DGN_PAL"
             ],
