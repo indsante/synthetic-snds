@@ -4,7 +4,7 @@
             "name": "ACT_COD",
             "description": "Code acte",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ACT_COD",
             "length": "5",
             "format": "default",
             "dateCreated": "2005",
@@ -446,6 +446,18 @@
                     "RSA_NUM"
                 ]
             }
+        },
+        {
+            "fields": [
+                "ACT_COD"
+            ],
+            "reference": {
+                "resource": "IR_ACT_COD",
+                "fields": [
+                    "ACT_COD"
+                ]
+            },
+            "description": "Nomenclature"
         },
         {
             "fields": [
