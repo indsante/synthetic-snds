@@ -205,7 +205,7 @@
             "name": "ACT_COD",
             "description": "Code acte",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ACT_COD",
             "length": "5",
             "format": "default",
             "dateCreated": "2012",
@@ -415,6 +415,18 @@
                 "resource": "MS_ENR_V",
                 "fields": [
                     "ENR_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ACT_COD"
+            ],
+            "reference": {
+                "resource": "IR_ACT_COD",
+                "fields": [
+                    "ACT_COD"
                 ]
             },
             "description": "Nomenclature"

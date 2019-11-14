@@ -4,7 +4,7 @@
             "name": "ACT_COD",
             "description": "Code de l'activité",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_ACT_COD",
             "length": "1",
             "format": "default",
             "dateCreated": "2010",
@@ -256,6 +256,18 @@
                     "RHAD_NUM"
                 ]
             }
+        },
+        {
+            "fields": [
+                "ACT_COD"
+            ],
+            "reference": {
+                "resource": "IR_ACT_COD",
+                "fields": [
+                    "ACT_COD"
+                ]
+            },
+            "description": "Nomenclature"
         },
         {
             "fields": [
