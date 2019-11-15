@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "PSE_STJ_SNDS",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "PSE_STJ_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "PSE_STJ_SNDS",
+  "primaryKey": "PSE_STJ_SNDS"
+}

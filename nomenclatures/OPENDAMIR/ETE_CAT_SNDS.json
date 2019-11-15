@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "ETE_CAT_SNDS",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "ETE_LIB_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "ETE_CAT_SNDS",
+  "primaryKey": "ETE_CAT_SNDS"
+}
