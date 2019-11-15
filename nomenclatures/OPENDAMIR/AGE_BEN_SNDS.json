@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "AGE_BEN_SNDS",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "AGE_BEN_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "AGE_BEN_SNDS",
+  "primaryKey": "AGE_BEN_SNDS"
+}

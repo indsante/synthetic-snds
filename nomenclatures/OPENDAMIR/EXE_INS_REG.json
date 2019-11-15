@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "EXE_INS_REG",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "EXE_INS_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "EXE_INS_REG",
+  "primaryKey": "EXE_INS_REG"
+}

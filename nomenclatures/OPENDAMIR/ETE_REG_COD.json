@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "ETE_REG_COD",
+      "type": "integer",
+      "format": "default",
+      "role": "code"
+    },
+    {
+      "name": "ETE_LIB_LIB",
+      "type": "string",
+      "format": "default",
+      "role": "label"
+    }
+  ],
+  "missingValues": [],
+  "name": "ETE_REG_COD",
+  "primaryKey": "ETE_REG_COD"
+}
