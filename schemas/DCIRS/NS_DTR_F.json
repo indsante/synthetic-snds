@@ -476,7 +476,7 @@
             "name": "TRS_ACT_PRU",
             "description": "Prix unitaire du code affiné du transport",
             "type": "number",
-            "nomenclature": "IR_DTR_V",
+            "nomenclature": "-",
             "length": "10,5",
             "format": "default",
             "dateCreated": "",
@@ -752,18 +752,6 @@
         {
             "fields": [
                 "TRS_PRS_IDE"
-            ],
-            "reference": {
-                "resource": "IR_DTR_V",
-                "fields": [
-                    "TRS_PRS_IDE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "TRS_ACT_PRU"
             ],
             "reference": {
                 "resource": "IR_DTR_V",

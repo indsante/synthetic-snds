@@ -446,7 +446,7 @@
             "name": "EXC_FIN_MTF",
             "description": "Motif de fin d'exercice libéral",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "EXC_FIN_MTF",
             "length": "1",
             "format": "default",
             "dateCreated": "",
@@ -881,5 +881,19 @@
         "dateDeleted": "",
         "dateMissing": []
     },
-    "observation": ""
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "EXC_FIN_MTF"
+            ],
+            "reference": {
+                "resource": "EXC_FIN_MTF",
+                "fields": [
+                    "EXC_FIN_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        }
+    ]
 }
