@@ -72,7 +72,7 @@
             "name": "CSARR_COD",
             "description": "Code principal",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "CSARR",
             "length": "7",
             "format": "default",
             "dateCreated": "2014",
@@ -296,6 +296,18 @@
                     "RHS_NUM"
                 ]
             }
+        },
+        {
+            "fields": [
+                "CSARR_COD"
+            ],
+            "reference": {
+                "resource": "CSARR",
+                "fields": [
+                    "csarr_code"
+                ]
+            },
+            "description": "Nomenclature"
         }
     ],
     "history": {

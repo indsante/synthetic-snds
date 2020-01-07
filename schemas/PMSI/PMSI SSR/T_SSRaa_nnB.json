@@ -570,7 +570,7 @@
             "name": "FP_PEC",
             "description": "Finalité principale de prise en charge",
             "type": "string",
-            "nomenclature": "CSARR",
+            "nomenclature": "IR_CIM_V",
             "length": "6",
             "format": "default",
             "dateCreated": "2005",
@@ -1612,9 +1612,9 @@
                 "FP_PEC"
             ],
             "reference": {
-                "resource": "CSARR",
+                "resource": "IR_CIM_V",
                 "fields": [
-                    "csarr_code"
+                    "CIM_COD"
                 ]
             },
             "description": "Nomenclature"
