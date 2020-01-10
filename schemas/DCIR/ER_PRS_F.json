@@ -2086,7 +2086,7 @@
             "description": "Type de contrat complémentaire",
             "type": "integer",
             "length": "3",
-            "nomenclature": "-",
+            "nomenclature": "IR_CTA_V",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
@@ -3210,6 +3210,18 @@
                 "resource": "IR_PPU_V",
                 "fields": [
                     "PPU_SEC"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_CTA_TYP"
+            ],
+            "reference": {
+                "resource": "IR_CTA_V",
+                "fields": [
+                    "BEN_CTA_TYP"
                 ]
             },
             "description": "Nomenclature"
