@@ -2292,6 +2292,17 @@
         },
         {
             "fields": [
+                "ETB_PRE_FIN"
+            ],
+            "reference": {
+                "resource": "BE_IDE_R",
+                "fields": [
+                    "IDE_ETA_NU8"
+                ]
+            }
+        },
+        {
+            "fields": [
                 "BEN_AMA_COD"
             ],
             "reference": {
