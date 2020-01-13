@@ -3,7 +3,7 @@
         {
             "name": "COH_NAI_RET",
             "description": "Code retour contrôle « Cohérence date naissance »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -12,15 +12,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "COH_SEX_RET",
             "description": "Code retour contrôle « Cohérence sexe »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -29,15 +26,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "DAT_RET",
             "description": "Code retour contrôle « date de référence» (date d'entrée)",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -46,10 +40,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ENT_DAT",
@@ -88,7 +79,7 @@
         {
             "name": "ETA_NUM_RET",
             "description": "Code retour contrôle \"N° FINESS d’inscription e-PMSI\"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -97,10 +88,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMD",
@@ -167,7 +155,7 @@
         {
             "name": "FHO_RET",
             "description": "Code retour « fusion ANO HOSP et HOSP PMSI »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -176,10 +164,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "FOR_NUM",
@@ -218,7 +203,7 @@
         {
             "name": "HOS_NNE_RET",
             "description": "Code retour contrôle « Hospitalisation d'un nouveau-né auprès de la mère »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -227,15 +212,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "HOS_ORG_RET",
             "description": "Code retour contrôle « Hospitalisation pour prélèvement d'organe »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -244,10 +226,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "HOS_PLO",
@@ -269,7 +248,7 @@
         {
             "name": "NAI_RET",
             "description": "Code retour contrôle « date de naissance »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -278,10 +257,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "NIR_ANO_17",
@@ -320,7 +296,7 @@
         {
             "name": "NIR_RET",
             "description": "Code retour contrôle « n° sécurité sociale »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -329,10 +305,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "NUM_DAT_AT",
@@ -354,7 +327,7 @@
         {
             "name": "NUM_DAT_AT_RET",
             "description": "Code retour contrôle \" Numéro accident du travail ou date d’accident de droit commun\"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -363,10 +336,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ORG_CPL_NUM",
@@ -388,7 +358,7 @@
         {
             "name": "ORG_CPL_NUM_RET",
             "description": "Code retour contrôle \" N° d’organisme complémentaire\"",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -397,15 +367,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PMS_RET",
             "description": "Code retour « fusion ANO PMSI et fichier PMSI »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -414,10 +381,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "RNG_BEN",
@@ -439,7 +403,7 @@
         {
             "name": "RNG_BEN_RET",
             "description": "Code retour contrôle « Rang du bénéficiaire »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -448,10 +412,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "RNG_NAI",
@@ -473,7 +434,7 @@
         {
             "name": "RNG_NAI_RET",
             "description": "Code retour contrôle « Rang de naissance »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -482,10 +443,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "RSA_NUM",
@@ -507,7 +465,7 @@
         {
             "name": "SEJ_MER_RET",
             "description": "Code retour contrôle « N° administratif de séjour de la mère »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -516,10 +474,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SEJ_NUM",
@@ -541,7 +496,7 @@
         {
             "name": "SEJ_RET",
             "description": "Code retour contrôle « n° d’identification administratif de séjour »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -550,15 +505,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SEX_RET",
             "description": "Code retour contrôle « sexe »",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -567,10 +519,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 1
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SOR_ANN",

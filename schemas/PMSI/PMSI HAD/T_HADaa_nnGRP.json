@@ -114,19 +114,16 @@
         {
             "name": "PAP_GRP_RET",
             "description": "Groupage PAPRICA : code retour",
-            "type": "string",
+            "type": "boolean",
             "nomenclature": "-",
-            "length": "3",
+            "length": "1",
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 3
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PAP_GRP_VER",
