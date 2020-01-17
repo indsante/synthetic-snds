@@ -3,19 +3,16 @@
         {
             "name": "ENT_DAT",
             "description": "Date d'entrée",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "8",
-            "format": "default",
+            "format": "%d%m%Y",
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 8
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ENT_DAT_RET",
@@ -254,19 +251,16 @@
         {
             "name": "SOR_DAT",
             "description": "Date de sortie",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "8",
-            "format": "default",
+            "format": "%d%m%Y",
             "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 8
-            }
+            "type_oracle": "string"
         },
         {
             "name": "RAC_MNT_PAT_RET",
