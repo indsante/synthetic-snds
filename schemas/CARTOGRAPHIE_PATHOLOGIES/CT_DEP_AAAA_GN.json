@@ -14,7 +14,7 @@
             "regle_gestion": "Construction de l'identifiant : Si identifiant bénéficiaire (ben_nir_ano) renseigné, id_carto = ben_nir_ano||\"U\" ; sinon, si qualité d'affiliation du bénéficiaire (ben_qaf_cod) = 10 alors id_carto = ass_nir_ano||\"U\" ; sinon id_carto = ben_nir_psa||ben_rng_gem",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 18
+                "maxLength": 18
             }
         },
         {
@@ -49,7 +49,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -84,7 +84,7 @@
             "regle_gestion": "Regroupement en classes d'âge du bénéficiaire : de 0 à 14 ans ; de 15 à 34 ans ; de 35 à 54 ans ; de 55 à 64 ans ; de 65 à 74 ans ; 75 ans et plus",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         },
         {
@@ -101,7 +101,7 @@
             "regle_gestion": "Regroupement en classes d'âge quinquennales du bénéficiaire : de 0 à 4 ans ; de 5 à 9 ans ; de 10 à 14 ans ; de 15 à 19 ans ; de 20 à 24 ans ; de 25 à 29 ans ; de 30 à 34 ans ; de 35 à 39 ans ; de 40 à 44 ans ; de 45 à 49 ans ; de 50 à 54 ans ; de 55 à 59 ans ; de 60 à 64 ans ; de 65 à 69 ans ; de 70 à 74 ans ; de 75 à 79 ans ; de 80 à 84 ans ; de 85 à 89 ans ; de 90 à 94 ans ; de 95 à 99 ans ; de 100 à 104 ans ; de 105 à 110 ans",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         },
         {
@@ -118,7 +118,7 @@
             "regle_gestion": "Région du résidence du bénéficiaire lors de la dernière date de soins de l'année (régions en vigueur jusqu'au 31 décembre 2015)",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -135,7 +135,7 @@
             "regle_gestion": "Région du résidence du bénéficiaire lors de la dernière date de soins de l'année (régions en vigueur à partir du 1 janvier 2016)",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -152,7 +152,7 @@
             "regle_gestion": "Département du résidence du bénéficiaire lors de la dernière date de soins de l'année",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -169,7 +169,7 @@
             "regle_gestion": "Régime social obligatoire du bénéficiaire lors de la dernière date de soins de l'année : RG (Régime Général) ; SLM (Société Locale Mutualiste) ; BDF (Banque de France) ; CAMIEG (Caisse d'Assurance Maladie des Industries Electriques et Gazières) ; RG-SLM (non déterminé car n'ayant des soins qu'en hospitalisation dans l'année)",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 6
+                "maxLength": 6
             }
         },
         {
@@ -186,7 +186,7 @@
             "regle_gestion": "Source de provenance du bénéficiaire dans le SNIIRAM : PRS (bénéficiaire ayant eu au moins une prestation dans DCIR dans l'année) ; MCO (bénéficiaire n'ayant pas eu de prestation dans DCIR mais ayant été hospitalisé en médecine-chirurgie-obstétrique dans l'année) ; PSY (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO mais ayant été hospitalisé en établissement psychiatrique dans l'année) ; SSR (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO ni en PSY mais ayant été en service de soins de suite et réadaptation) ; HAD (bénéficiaire n'ayant pas eu de prestation dans DCIR ni en MCO ni en PSY ni en SSR mais ayant été hospitalisé à domicile)",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -221,7 +221,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -1372,7 +1372,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -1389,7 +1389,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 6
+                "maxLength": 6
             }
         }
     ],

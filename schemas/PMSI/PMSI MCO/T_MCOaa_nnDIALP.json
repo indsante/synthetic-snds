@@ -14,7 +14,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -31,7 +31,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -48,7 +48,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -65,7 +65,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -100,7 +100,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -117,7 +117,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -134,13 +134,13 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 10
+                "maxLength": 10
             }
         },
         {
             "name": "FAC_SEM_NBR",
             "description": "Nombre de semaine facturées",
-            "type": "string",
+            "type": "integer",
             "length": "3",
             "dateCreated": "2009",
             "dateDeleted": "2011",
@@ -149,10 +149,7 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 3
-            }
+            "type_oracle": "string"
         }
     ],
     "name": "T_MCOaa_nnDIALP",

@@ -14,7 +14,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -22,37 +22,37 @@
             "description": "Prix unitaire du médicament codé en CIP",
             "type": "number",
             "nomenclature": "-",
-            "length": "10,5",
+            "length": "5,5",
             "format": "default",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000,
+                "decimals": 5
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10000000000,
-                "decimals": 5
-            }
+            "type_oracle": "number"
         },
         {
             "name": "PHA_ACT_QSN",
             "description": "Quantité affinée signée (= nombre de boites facturées)",
             "type": "integer",
             "nomenclature": "-",
-            "length": "4",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "maximum": 30,
+                "minimum": -10
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "PHA_CPA_PCP",
@@ -61,15 +61,15 @@
             "nomenclature": "-",
             "length": "3",
             "format": "default",
+            "constraints": {
+                "maxLength": 3
+            },
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 3
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PHA_DEC_PRU",
@@ -102,11 +102,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "Cette variable correspond au nombre d'unités fractionnées de médicament délivrées (exemple : le nombre de comprimés) dans le cadre du déconditionnement (PHA_DEC_TOP = D).",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "PHA_DEC_TOP",
@@ -122,7 +118,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -157,7 +153,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -165,18 +161,18 @@
             "description": "Numéro d'ordre de la prestation affinée pharmacie",
             "type": "integer",
             "nomenclature": "-",
-            "length": "4",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "maximum": 20,
+                "minimum": 1
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "PHA_PRS_C13",
@@ -190,11 +186,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10000000000000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "PHA_PRS_IDE",
@@ -208,11 +200,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10000000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "PHA_SEQ_RNV",
@@ -226,11 +214,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100
-            }
+            "type_oracle": "number"
         },
         {
             "name": "PHA_SUB_MTF",
@@ -244,11 +228,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10
-            }
+            "type_oracle": "number"
         },
         {
             "name": "DCT_ORD_NUM",
@@ -262,11 +242,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 1000000000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "FLX_DIS_DTD",
@@ -287,18 +263,14 @@
             "description": "numéro d'émetteur du flux",
             "type": "integer",
             "nomenclature": "IR_NEM_T",
-            "length": "4",
+            "length": "2",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_ORD",
@@ -312,11 +284,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_TYP",
@@ -330,11 +298,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100
-            }
+            "type_oracle": "number"
         },
         {
             "name": "FLX_TRT_DTD",
@@ -364,7 +328,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -372,36 +336,36 @@
             "description": "Numéro d'ordre de la prestation dans le décompte",
             "type": "integer",
             "nomenclature": "-",
-            "length": "5",
+            "length": "3",
             "format": "default",
+            "constraints": {
+                "maximum": 100,
+                "minimum": 1
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "REM_TYP_AFF",
             "description": "type de remboursement affiné",
             "type": "integer",
             "nomenclature": "-",
-            "length": "8",
+            "length": "2",
             "format": "default",
+            "constraints": {
+                "maximum": 10,
+                "minimum": 1
+            },
             "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000000
-            }
+            "type_oracle": "number"
         }
     ],
     "name": "ER_PHA_F",
