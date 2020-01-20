@@ -59,7 +59,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -95,7 +95,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -272,7 +272,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 100
+                "maxLength": 100
             }
         },
         {

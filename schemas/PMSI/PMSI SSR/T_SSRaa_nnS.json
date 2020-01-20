@@ -14,7 +14,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -31,7 +31,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -48,7 +48,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -65,7 +65,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 7
+                "maxLength": 7
             }
         },
         {
@@ -82,13 +82,13 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
             "name": "SEJ_NBJ",
             "description": "Durée du séjour",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -102,7 +102,7 @@
         {
             "name": "PRE_JOU_NBR",
             "description": "Nombre de journées de présence",
-            "type": "number",
+            "type": "integer",
             "nomenclature": "-",
             "length": null,
             "format": "default",
@@ -127,7 +127,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -144,7 +144,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -161,7 +161,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -178,7 +178,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -195,7 +195,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -282,7 +282,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1024
+                "maxLength": 1024
             }
         },
         {

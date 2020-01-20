@@ -27,7 +27,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -58,7 +58,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -203,7 +203,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 6
+                "maxLength": 6
             }
         },
         {
@@ -437,7 +437,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -452,11 +452,7 @@
             "format": "default",
             "regle_gestion": "Les indicateurs pré-filtrés sont à alimenter uniquement si le type de remboursement est égal à  zéro, sinon les alimenter par la valeur  zéro.",
             "observation": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 1000000000000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "BEN_SEX_COD",
@@ -490,7 +486,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -654,7 +650,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -689,7 +685,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -706,7 +702,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -741,7 +737,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -794,7 +790,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 6
+                "maxLength": 6
             }
         },
         {
@@ -811,7 +807,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -901,7 +897,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 6
+                "maxLength": 6
             }
         },
         {
@@ -918,7 +914,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -935,7 +931,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -1061,7 +1057,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -1096,7 +1092,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -1129,11 +1125,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "ETE_TYP_COD",
@@ -1203,7 +1195,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -1220,7 +1212,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -1310,7 +1302,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 6
+                "maxLength": 6
             }
         },
         {

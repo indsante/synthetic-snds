@@ -14,7 +14,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -31,7 +31,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -48,7 +48,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 38
+                "maxLength": 38
             }
         },
         {
@@ -65,7 +65,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 38
+                "maxLength": 38
             }
         },
         {
@@ -82,7 +82,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -99,7 +99,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -116,7 +116,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -133,7 +133,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 25
+                "maxLength": 25
             }
         },
         {
@@ -150,7 +150,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 38
+                "maxLength": 38
             }
         },
         {
@@ -167,7 +167,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 33
+                "maxLength": 33
             }
         },
         {
@@ -184,7 +184,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         },
         {
@@ -201,7 +201,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 10
+                "maxLength": 10
             }
         },
         {
@@ -218,7 +218,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 10
+                "maxLength": 10
             }
         },
         {
@@ -235,7 +235,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 50
+                "maxLength": 50
             }
         },
         {
@@ -252,7 +252,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 10
+                "maxLength": 10
             }
         },
         {
@@ -269,7 +269,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 80
+                "maxLength": 80
             }
         },
         {
@@ -286,7 +286,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         },
         {
@@ -303,7 +303,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -320,7 +320,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -337,7 +337,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -368,7 +368,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -399,7 +399,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -430,7 +430,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -461,7 +461,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -492,7 +492,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -523,7 +523,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 14
+                "maxLength": 14
             }
         },
         {
@@ -554,7 +554,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -571,7 +571,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -602,7 +602,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -619,7 +619,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -636,7 +636,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -653,7 +653,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -796,7 +796,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -873,7 +873,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -890,7 +890,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -907,7 +907,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -924,7 +924,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -941,7 +941,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -958,7 +958,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -975,7 +975,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -1024,7 +1024,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -1055,7 +1055,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -1072,7 +1072,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         },
         {
@@ -1089,7 +1089,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -1170,7 +1170,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         }
     ],

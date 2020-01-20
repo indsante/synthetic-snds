@@ -97,7 +97,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -114,7 +114,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -182,7 +182,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 13
+                "maxLength": 13
             }
         },
         {
@@ -272,7 +272,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 100
+                "maxLength": 100
             }
         },
         {
@@ -399,11 +399,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "FLX_EMT_ORD",

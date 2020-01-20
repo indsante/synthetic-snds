@@ -14,7 +14,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 17
+                "maxLength": 17
             }
         },
         {
@@ -113,7 +113,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -130,7 +130,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -147,7 +147,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -178,7 +178,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         },
         {
@@ -195,7 +195,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 10
+                "maxLength": 10
             }
         },
         {

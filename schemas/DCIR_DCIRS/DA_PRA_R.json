@@ -14,7 +14,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -31,7 +31,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -48,7 +48,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -65,7 +65,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -82,7 +82,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 13
+                "maxLength": 13
             }
         },
         {
@@ -99,7 +99,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -116,7 +116,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -133,7 +133,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -150,7 +150,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -167,7 +167,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -184,7 +184,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -201,7 +201,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -218,7 +218,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -235,7 +235,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -252,7 +252,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -269,7 +269,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -286,7 +286,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -303,7 +303,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -320,7 +320,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -337,7 +337,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -354,7 +354,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -371,7 +371,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -388,7 +388,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -405,7 +405,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -422,7 +422,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -439,7 +439,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -456,7 +456,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -473,7 +473,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -490,7 +490,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -507,7 +507,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -524,7 +524,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -541,7 +541,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -558,7 +558,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -575,13 +575,13 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
             "name": "PRA_DIP_NBR",
             "description": "Nb de salariés diplômés",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -590,15 +590,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PRA_SAL_NBR",
             "description": "Nb de salariés non diplômés",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -607,10 +604,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PFS_SPE_ANT",
@@ -626,13 +620,13 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
             "name": "PFS_AMB_NBR",
             "description": "Effectif du véhicule de type ambulance",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -641,15 +635,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PFS_VSL_NBR",
             "description": "Effectif du véhicule de type VSL",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -658,15 +649,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PFS_TXI_NBR",
             "description": "Effectif du véhicule de type Taxi",
-            "type": "string",
+            "type": "integer",
             "nomenclature": "-",
             "length": "2",
             "format": "default",
@@ -675,10 +663,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maximum": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PRA_TOP_REF",
@@ -694,7 +679,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -711,7 +696,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -728,7 +713,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -745,7 +730,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -762,7 +747,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -779,7 +764,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 3
+                "maxLength": 3
             }
         },
         {
@@ -796,7 +781,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         },
         {
@@ -813,7 +798,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 30
+                "maxLength": 30
             }
         },
         {
@@ -830,7 +815,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -847,7 +832,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -864,7 +849,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 5
+                "maxLength": 5
             }
         }
     ],

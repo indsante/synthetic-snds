@@ -78,7 +78,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -113,7 +113,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 9
+                "maxLength": 9
             }
         },
         {
@@ -180,7 +180,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -251,7 +251,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 8
+                "maxLength": 8
             }
         },
         {
@@ -286,7 +286,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -303,7 +303,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 100
+                "maxLength": 100
             }
         },
         {
@@ -356,7 +356,7 @@
             "observation": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 15
+                "maxLength": 15
             }
         },
         {

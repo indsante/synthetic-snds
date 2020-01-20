@@ -557,7 +557,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -572,11 +572,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "Les indicateurs pré-filtrés sont à alimenter uniquement si le type de remboursement est égal à  zéro, sinon les alimenter par la valeur  zéro.",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 1000000000000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "BEN_SEX_COD",
@@ -667,7 +663,7 @@
             "regle_gestion": "",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 1
+                "maxLength": 1
             }
         },
         {
@@ -775,7 +771,7 @@
             "regle_gestion": "* Alimentée avec l'année extraite de la date de début de soins, à lexception de lorthodontie et des cures thermales.\n* Alimentée avec l'année extraite de la date de fin de soins pour lorthodontie et les cures thermales. Si la date de fin de soins n'est pas alimentée (par exemple : '01-01-0001'), alimenter le mois de soin à partir de la date début de soins.\n* Pour les Rentes AT, Pension d'invalidité et Capital décès, l'année de soin est alimentée à zéro.",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 4
+                "maxLength": 4
             }
         },
         {
@@ -863,11 +859,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "SOI_MOI",
@@ -883,7 +875,7 @@
             "regle_gestion": "* Alimenté avec le mois extrait de la date de début de soins, à lexception de lorthodontie et des cures thermales.\n* Alimenté avec le mois extrait de la date de fin de soins pour lorthodontie et les cures thermales. Si la date de fin de soins n'est pas alimentée (par exemple : '01-01-0001'), alimenter le mois de soin à partir de la date début de soins.\n* Pour les Rentes AT, Pension d'invalidité et Capital décès, le mois de soin est alimenté à zéro.",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 2
+                "maxLength": 2
             }
         },
         {
@@ -955,7 +947,7 @@
             "regle_gestion": "Extraire lannée et le mois de la date de traitement.",
             "type_oracle": "string",
             "constraints": {
-                "maximum": 6
+                "maxLength": 6
             }
         },
         {
