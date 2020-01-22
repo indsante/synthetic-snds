@@ -149,7 +149,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000
+            }
         },
         {
             "name": "PRS_TYP",
@@ -197,7 +201,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000000000
+            }
         }
     ],
     "name": "T_MCOaa_nnPIE",

@@ -221,7 +221,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000
+            }
         },
         {
             "name": "TOP_UCD_AUTO",

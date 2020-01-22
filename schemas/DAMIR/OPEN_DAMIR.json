@@ -572,7 +572,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "Les indicateurs pré-filtrés sont à alimenter uniquement si le type de remboursement est égal à  zéro, sinon les alimenter par la valeur  zéro.",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000000
+            }
         },
         {
             "name": "BEN_SEX_COD",
@@ -859,7 +863,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000
+            }
         },
         {
             "name": "SOI_MOI",

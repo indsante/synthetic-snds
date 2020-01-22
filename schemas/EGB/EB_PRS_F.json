@@ -1802,7 +1802,11 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000
+            }
         },
         {
             "name": "BEN_IAT_CAT",
