@@ -42,25 +42,25 @@
             "nomenclature": "-",
             "length": "17",
             "format": "default",
+            "constraints": {
+                "maxLength": 17
+            },
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 17
-            }
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_ANO",
             "description": "Identifiant bénéficiaire anonymisé",
             "type": "string",
             "nomenclature": "-",
-            "length": "18",
+            "length": "17",
             "format": "default",
             "constraints": {
-                "maxLength": 18
+                "maxLength": 17
             },
             "dateCreated": "",
             "dateDeleted": "",
@@ -72,7 +72,7 @@
         {
             "name": "BEN_IDT_TOP",
             "description": "Top identifiant bénéficiaire Anonymisé",
-            "type": "integer",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -81,11 +81,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10
-            }
+            "type_oracle": "number"
         },
         {
             "name": "ASS_NIR_ANO",
@@ -94,15 +90,15 @@
             "nomenclature": "-",
             "length": "17",
             "format": "default",
+            "constraints": {
+                "maxLength": 17
+            },
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 17
-            }
+            "type_oracle": "string"
         },
         {
             "name": "BEN_IDT_MAJ",
@@ -138,7 +134,7 @@
         {
             "name": "BEN_NAI_ANN",
             "description": "Année de naissance du bénéficiaire",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -147,27 +143,21 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NAI_MOI",
             "description": "Mois de naissance du bénéficiaire",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "BEN_SEX_COD",
@@ -204,7 +194,7 @@
         {
             "name": "BEN_DCD_AME",
             "description": "Année et mois de décès du bénéficiaire",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -213,10 +203,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ORG_AFF_BEN",
@@ -272,7 +259,7 @@
         {
             "name": "BEN_TOP_CNS",
             "description": "top consommant - non consommant",
-            "type": "integer",
+            "type": "boolean",
             "nomenclature": "-",
             "length": "1",
             "format": "default",
@@ -281,11 +268,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 10
-            }
+            "type_oracle": "number"
         },
         {
             "name": "MAX_TRT_DTD",
