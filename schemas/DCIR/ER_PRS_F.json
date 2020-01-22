@@ -12,7 +12,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000
+            }
         },
         {
             "name": "BEN_CDI_NIR",
@@ -43,7 +47,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "BEN_CMU_ORG",
@@ -71,7 +79,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 2
+                "maximum": 10
             },
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -120,7 +128,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "BEN_IAT_CAT",
@@ -165,7 +177,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "BEN_NIR_PSA",
@@ -196,7 +212,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La règle de calcul du rang du bénéficiaire dans le SNIIRAM est la suivante :\n- le rang de louvreur de droits est toujours égal à 1,\n- si un ayant droit a la même date de naissance que louvreur de droits, son rang est égal à 2,\n- un enfant né dune naissance unique a un rang égal à 1,\n- lorsquil y a des naissances multiples, chaque enfant est différencié par son rang (1 pour le 1er, 2 pour le second, ).",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "BEN_QAF_COD",
@@ -210,7 +230,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "BEN_RES_COM",
@@ -258,7 +282,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "ORG_AFF_BEN",
@@ -285,7 +313,7 @@
             "length": "1",
             "constraints": {
                 "minimum": 0,
-                "maximum": 6
+                "maximum": 10
             },
             "format": "default",
             "dateCreated": "2006",
@@ -490,7 +518,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "CPL_REM_BSE",
@@ -561,7 +593,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "PRS_ACT_CFT",
@@ -761,7 +797,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000
+            }
         },
         {
             "name": "RGM_GRG_COD",
@@ -775,7 +815,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "ACC_TIE_IND",
@@ -789,7 +833,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "BSE_FJH_TYP",
@@ -803,7 +851,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "BSE_PRS_NAT",
@@ -817,7 +869,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La ligne de prestation contient des informations concernant un acte de base (une consultation par exemple)",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000
+            }
         },
         {
             "name": "CPL_AFF_COD",
@@ -831,7 +887,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "CPL_ANO_COD",
@@ -845,7 +905,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "CPL_FJH_TYP",
@@ -859,7 +923,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "CPL_MAJ_TOP",
@@ -873,7 +941,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "CPL_PRS_NAT",
@@ -887,7 +959,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "La ligne de prestation contient des informations concernant un complément dacte ou une majoration (majoration de coordination par exemple)",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000
+            }
         },
         {
             "name": "DPN_QLF",
@@ -901,7 +977,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "DRG_MOD",
@@ -915,7 +995,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "DRG_NAT",
@@ -929,7 +1013,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "EXE_LIE_COD",
@@ -943,7 +1031,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "EXO_MTF",
@@ -957,7 +1049,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "IJR_EMP_NUM",
@@ -1006,7 +1102,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "ORG_CLE_NEW",
@@ -1037,7 +1137,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "PRS_CRD_OPT",
@@ -1051,7 +1155,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "PRS_DPN_QLP",
@@ -1065,7 +1173,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PRS_NAT_REF",
@@ -1079,7 +1191,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000
+            }
         },
         {
             "name": "PRS_OPS_TRF",
@@ -1093,7 +1209,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "PRS_PDS_QCP",
@@ -1107,7 +1227,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PRS_PDS_QTP",
@@ -1121,7 +1245,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PRS_PPF_COD",
@@ -1152,7 +1280,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "PRS_REF_KIN",
@@ -1183,7 +1315,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "PRS_TYP_KIN",
@@ -1214,7 +1350,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "RGO_ENV_TYP",
@@ -1228,7 +1368,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "RGO_FTA_COD",
@@ -1242,7 +1386,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "RGO_MIN_TAU",
@@ -1381,7 +1529,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PSE_CNV_COD",
@@ -1395,7 +1547,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "PSE_REF_ADH",
@@ -1426,7 +1582,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PSE_STJ_COD",
@@ -1440,7 +1600,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PSP_ACT_NAT",
@@ -1454,7 +1618,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PSP_CNV_COD",
@@ -1468,7 +1636,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "PSP_PPS_NUM",
@@ -1516,7 +1688,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PSP_STJ_COD",
@@ -1530,7 +1706,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PSP_SVI_PPS",
@@ -1544,7 +1724,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "DCT_ORD_NUM",
@@ -1558,7 +1742,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000
+            }
         },
         {
             "name": "FLX_DIS_DTD",
@@ -1586,7 +1774,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "FLX_EMT_ORD",
@@ -1600,7 +1792,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000
+            }
         },
         {
             "name": "FLX_EMT_TYP",
@@ -1614,7 +1810,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "FLX_TRT_DTD",
@@ -1659,7 +1859,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000
+            }
         },
         {
             "name": "REM_TYP_AFF",
@@ -1673,7 +1877,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000000
+            }
         },
         {
             "name": "BEN_DRT_SPF",
@@ -1769,7 +1977,11 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PRS_PPU_SEC",
@@ -1783,7 +1995,11 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "BEN_CTA_TYP",
@@ -1797,7 +2013,11 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000
+            }
         },
         {
             "name": "PRS_DRA_AME",
@@ -1820,8 +2040,8 @@
             "length": "2",
             "nomenclature": "-",
             "constraints": {
-                "minimum": 11,
-                "maximum": 99
+                "minimum": 0,
+                "maximum": 100
             },
             "dateCreated": "",
             "dateDeleted": "",
@@ -1915,7 +2135,11 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         }
     ],
     "name": "ER_PRS_F",

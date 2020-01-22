@@ -452,7 +452,11 @@
             "format": "default",
             "regle_gestion": "Les indicateurs pré-filtrés sont à alimenter uniquement si le type de remboursement est égal à  zéro, sinon les alimenter par la valeur  zéro.",
             "observation": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000000000000
+            }
         },
         {
             "name": "BEN_SEX_COD",
@@ -1125,7 +1129,11 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000
+            }
         },
         {
             "name": "ETE_TYP_COD",

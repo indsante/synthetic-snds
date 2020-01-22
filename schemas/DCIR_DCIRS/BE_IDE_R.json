@@ -668,7 +668,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "integer"
+            "type_oracle": "integer",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000000000
+            }
         },
         {
             "name": "IDE_IDE_DAM",
@@ -710,7 +714,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "integer"
+            "type_oracle": "integer",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000000000
+            }
         },
         {
             "name": "IDE_IDE_DAS",
@@ -752,7 +760,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "integer"
+            "type_oracle": "integer",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000000000
+            }
         },
         {
             "name": "IDE_IDE_DON",

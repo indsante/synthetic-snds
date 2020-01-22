@@ -40,7 +40,11 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000000
+            }
         },
         {
             "name": "MOY_PRI",

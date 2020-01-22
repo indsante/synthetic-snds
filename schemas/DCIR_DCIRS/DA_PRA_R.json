@@ -590,7 +590,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PRA_SAL_NBR",
@@ -604,7 +608,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PFS_SPE_ANT",
@@ -635,7 +643,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PFS_VSL_NBR",
@@ -649,7 +661,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PFS_TXI_NBR",
@@ -663,7 +679,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PRA_TOP_REF",

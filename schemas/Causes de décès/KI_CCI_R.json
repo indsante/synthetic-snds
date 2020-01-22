@@ -802,7 +802,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "TOT_ACC_NBR",
@@ -816,7 +820,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100
+            }
         },
         {
             "name": "PER_PFS_COD",

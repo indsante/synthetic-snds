@@ -66,7 +66,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000
+            }
         },
         {
             "name": "AUT_PGV_NBR",
@@ -80,7 +84,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "BDI_COD",
@@ -145,7 +153,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000
+            }
         },
         {
             "name": "CAI_SUP_NBR",
@@ -159,7 +171,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000
+            }
         },
         {
             "name": "COD_SEX",
@@ -328,7 +344,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000
+            }
         },
         {
             "name": "GHS_9615_ACT",
@@ -826,7 +846,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10
+            }
         },
         {
             "name": "SEJ_COD_CONF",
@@ -857,7 +881,11 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 10000
+            }
         },
         {
             "name": "SEJ_TYP",
@@ -1452,7 +1480,11 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number"
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 100000000
+            }
         },
         {
             "name": "GHS_9611_ACT",

@@ -149,7 +149,11 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1000
+            }
         }
     ],
     "name": "T_MCOaa_nnDIALP",
