@@ -296,18 +296,6 @@
         },
         {
             "fields": [
-                "FLX_TRT_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "FLX_EMT_NUM"
             ],
             "reference": {
@@ -326,18 +314,6 @@
                 "resource": "IR_ATT_V",
                 "fields": [
                     "ATT_NAT"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "RAT_IPP_DTE"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

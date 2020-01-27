@@ -485,18 +485,6 @@
         },
         {
             "fields": [
-                "FLX_TRT_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "PHA_CPA_PCP"
             ],
             "reference": {

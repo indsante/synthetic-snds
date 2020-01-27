@@ -71,7 +71,7 @@
         {
             "name": "SOR_ANN",
             "description": "Année de sortie",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -80,27 +80,21 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SOR_MOI",
             "description": "Mois de sortie",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "DEL_DAT_ENT",

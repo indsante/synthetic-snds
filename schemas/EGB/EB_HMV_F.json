@@ -164,18 +164,6 @@
     "foreignKeys": [
         {
             "fields": [
-                "ORG_AFF_DTF"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "SLM_RTT_COD"
             ],
             "reference": {
@@ -194,18 +182,6 @@
                 "resource": "IR_DPT_V",
                 "fields": [
                     "GEO_DPT_COD"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "MAJ_SYS_DTE"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

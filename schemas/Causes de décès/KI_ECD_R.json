@@ -90,7 +90,7 @@
         {
             "name": "FLX_PER_ANN",
             "description": "Année de décès",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -99,10 +99,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "CER_LIG_NUM",
@@ -191,7 +188,7 @@
         {
             "name": "BEN_DCD_AME",
             "description": "Année et mois de décès du bénéficiaire",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -200,10 +197,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         }
     ],
     "name": "KI_ECD_R",
@@ -243,18 +237,6 @@
                 "resource": "IR_CIM_V",
                 "fields": [
                     "CIM_COD"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "BEN_DCD_DTE"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

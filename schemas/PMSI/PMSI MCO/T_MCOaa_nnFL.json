@@ -21,7 +21,7 @@
         {
             "name": "ANN_MOI",
             "description": "Mois et année",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -30,10 +30,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "DEL_DAT_ENT",

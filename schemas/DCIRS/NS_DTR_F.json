@@ -84,7 +84,7 @@
         {
             "name": "EXE_SOI_AMD",
             "description": "Date (année et mois) de début d'exécution des soins",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
@@ -93,15 +93,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMF",
             "description": "Date (année et mois) de fin d'exécution des soins",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "IR_DTE_V",
             "length": "6",
             "format": "default",
@@ -110,10 +107,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PFS_EXE_NUM",
@@ -559,54 +553,6 @@
         },
         {
             "fields": [
-                "EXE_SOI_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "EXE_SOI_DTF"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "EXE_SOI_AMD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "EXE_SOI_AMF"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "CAI_LIQ_COD"
             ],
             "reference": {
@@ -649,30 +595,6 @@
                 "resource": "IR_SLM_V",
                 "fields": [
                     "SLM_NUM"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_TRT_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_DIS_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

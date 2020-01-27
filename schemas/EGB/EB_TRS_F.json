@@ -146,7 +146,7 @@
         {
             "name": "TRS_DTD_AME",
             "description": "Année et mois de départ du transport (format AAAAMM)",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -155,10 +155,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "FLX_EMT_TYP",
@@ -270,7 +267,7 @@
         {
             "name": "TRS_DTF_AME",
             "description": "Année et mois d'arrivée du transport (format AAAAMM)",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -279,10 +276,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "FLX_EMT_ORD",
@@ -372,18 +366,6 @@
                 "resource": "IR_ORG_V",
                 "fields": [
                     "ORG_NUM"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_TRT_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

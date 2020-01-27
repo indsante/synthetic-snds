@@ -99,7 +99,7 @@
         {
             "name": "BEN_DCD_AME",
             "description": "Année et mois de décès du bénéficiaire",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -108,10 +108,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "MAJ_SYS_DTE",
@@ -144,7 +141,7 @@
         {
             "name": "BEN_NAI_ANN",
             "description": "Année de naissance du bénéficiaire",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "nomenclature": "-",
             "dateCreated": "",
@@ -153,10 +150,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "BEN_DCD_DTD",
@@ -275,18 +269,6 @@
     "foreignKeys": [
         {
             "fields": [
-                "ORG_AFF_DTF"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "BEN_SEX_COD"
             ],
             "reference": {
@@ -305,30 +287,6 @@
                 "resource": "IR_DPT_V",
                 "fields": [
                     "GEO_DPT_COD"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "MAJ_SYS_DTE"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "BEN_DCD_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

@@ -348,7 +348,7 @@
         {
             "name": "FIN_ANN_SEQ",
             "description": "Année de la date de fin de la séquence",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -357,27 +357,21 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "FIN_MOI_SEQ",
             "description": "Mois de la date de fin de la séquence",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "MOT_NFACT_AM",
@@ -746,7 +740,7 @@
         {
             "name": "SOR_ANN",
             "description": "Année de la date de sortie du séjour",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -755,15 +749,12 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SOR_ANN_SSEQ",
             "description": "Année de sortie de la sous-séquence",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -772,10 +763,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SOR_DES",
@@ -814,36 +802,30 @@
         {
             "name": "SOR_MOI",
             "description": "Mois de la date de sortie du séjour",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SOR_MOI_SSEQ",
             "description": "Mois de sortie de la sous-séquence",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SSEQ_NBJ",

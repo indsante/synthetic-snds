@@ -105,24 +105,21 @@
         {
             "name": "ACT_MOI",
             "description": "Mois de la date de l'acte",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ACT_ANN",
             "description": "Année de la date de l'acte",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -131,10 +128,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "DEL_DAT_ENT",

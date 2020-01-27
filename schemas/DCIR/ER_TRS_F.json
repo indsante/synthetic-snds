@@ -377,7 +377,7 @@
         {
             "name": "TRS_DTD_AME",
             "description": "Année et mois de départ du transport (format AAAAMM)",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -386,10 +386,7 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "TRS_DTD_DTE",
@@ -408,7 +405,7 @@
         {
             "name": "TRS_DTF_AME",
             "description": "Année et mois d'arrivée du transport (format AAAAMM)",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -417,10 +414,7 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         }
     ],
     "name": "ER_TRS_F",
@@ -471,18 +465,6 @@
         },
         {
             "fields": [
-                "FLX_DIS_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "FLX_EMT_NUM"
             ],
             "reference": {
@@ -501,18 +483,6 @@
                 "resource": "IR_TYT_V",
                 "fields": [
                     "TYT_COD"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "FLX_TRT_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

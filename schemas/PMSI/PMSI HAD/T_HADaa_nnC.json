@@ -82,24 +82,21 @@
         {
             "name": "ENT_MOI",
             "description": "Mois d'entrée",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2017",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ENT_ANN",
             "description": "Année d'entrée",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -108,10 +105,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "NIR_RET",
@@ -349,7 +343,7 @@
         {
             "name": "EXE_SOI_AMD",
             "description": "Date d'entrée au format année + mois",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -358,10 +352,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMF",
@@ -521,7 +512,7 @@
         {
             "name": "SEJ_LUN_ANN",
             "description": "Année de la date d'entrée de séjour",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "dateCreated": "2005",
             "dateDeleted": "2015",
@@ -530,27 +521,21 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SEJ_LUN_MOI",
             "description": "Mois de la date d'entrée de séjour",
-            "type": "string",
+            "type": "date",
             "length": "2",
             "dateCreated": "2005",
             "dateDeleted": "2015",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default",
+            "format": "%m",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SOR_AM",
@@ -583,7 +568,7 @@
         {
             "name": "SOR_ANN",
             "description": "Année de sortie",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "dateCreated": "2015",
             "dateDeleted": "2017",
@@ -592,27 +577,21 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "SOR_MOI",
             "description": "Mois de sortie",
-            "type": "string",
+            "type": "date",
             "length": "2",
             "dateCreated": "2015",
             "dateDeleted": "2017",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default",
+            "format": "%m",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ENT_AM",

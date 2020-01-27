@@ -38,7 +38,7 @@
         {
             "name": "ben_nai_ann",
             "description": "Année de naissance du bénéficiaire",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -47,10 +47,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "age",
@@ -245,7 +242,7 @@
         {
             "name": "ben_dcd_dte",
             "description": "Date de décès du bénéficiaire",
-            "type": "integer",
+            "type": "date",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -254,11 +251,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 100000000
-            }
+            "type_oracle": "number"
         },
         {
             "name": "dcd_3112",
@@ -1378,7 +1371,7 @@
         {
             "name": "BEN_DCD_AME",
             "description": "Année et mois de décès du bénéficiaire",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -1387,10 +1380,7 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         }
     ],
     "name": "CT_DEP_AAAA_GN",

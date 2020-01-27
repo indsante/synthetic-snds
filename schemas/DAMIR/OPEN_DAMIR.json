@@ -764,7 +764,7 @@
         {
             "name": "SOI_ANN",
             "description": "Année de soin PS5",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -773,10 +773,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "* Alimentée avec l'année extraite de la date de début de soins, à lexception de lorthodontie et des cures thermales.\n* Alimentée avec l'année extraite de la date de fin de soins pour lorthodontie et les cures thermales. Si la date de fin de soins n'est pas alimentée (par exemple : '01-01-0001'), alimenter le mois de soin à partir de la date début de soins.\n* Pour les Rentes AT, Pension d'invalidité et Capital décès, l'année de soin est alimentée à zéro.",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "CPT_ENV_TYP",
@@ -872,19 +869,16 @@
         {
             "name": "SOI_MOI",
             "description": "Mois de soin PS5",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "* Alimenté avec le mois extrait de la date de début de soins, à lexception de lorthodontie et des cures thermales.\n* Alimenté avec le mois extrait de la date de fin de soins pour lorthodontie et les cures thermales. Si la date de fin de soins n'est pas alimentée (par exemple : '01-01-0001'), alimenter le mois de soin à partir de la date début de soins.\n* Pour les Rentes AT, Pension d'invalidité et Capital décès, le mois de soin est alimenté à zéro.",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "CPL_COD",
@@ -944,7 +938,7 @@
         {
             "name": "FLX_ANN_MOI",
             "description": "Année et Mois de traitement",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -953,10 +947,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "Extraire lannée et le mois de la date de traitement.",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ATT_NAT",

@@ -151,7 +151,7 @@
         {
             "name": "EXE_SOI_AMD",
             "description": "Date (année et mois) de début d'exécution des soins",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",
@@ -160,10 +160,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_DTF",
@@ -556,7 +553,7 @@
         {
             "name": "PRE_PRE_AMD",
             "description": "Date (année et mois) de prescription",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",
@@ -565,10 +562,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PSE_SPE_COD",
@@ -1015,7 +1009,7 @@
         {
             "name": "PRS_DRA_AME",
             "description": "Date réelle (année et mois) de l'accouchement",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -1024,10 +1018,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "PRS_NAT_REF",
@@ -1724,7 +1715,7 @@
         {
             "name": "EXE_SOI_AMF",
             "description": "Date (année et mois) de fin d'exécution des soins",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",
@@ -1733,10 +1724,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "BEN_NIR_IDT",
@@ -1758,7 +1746,7 @@
         {
             "name": "BEN_DCD_AME",
             "description": "Année et mois de décès du bénéficiaire",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "-",
             "dateCreated": "",
@@ -1767,10 +1755,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "BEN_CTA_TYP",
@@ -2026,7 +2011,7 @@
         {
             "name": "PRS_HOS_AMD",
             "description": "Date (année et mois) de début d'hospitalisation",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "nomenclature": "IR_DTE_V",
             "dateCreated": "",
@@ -2035,10 +2020,7 @@
             "format": "default",
             "regle_gestion": "",
             "observation": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "CPL_REM_MNT",
@@ -2176,18 +2158,6 @@
         },
         {
             "fields": [
-                "PRE_PRE_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "MTM_NAT"
             ],
             "reference": {
@@ -2206,30 +2176,6 @@
                 "resource": "IR_SJP_V",
                 "fields": [
                     "PFS_STJ_COD"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "EXE_SOI_AMD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "EXE_SOI_DTF"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"
@@ -2266,18 +2212,6 @@
                 "resource": "IR_EXO_V",
                 "fields": [
                     "EXO_MTF"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "PRS_GRS_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"
@@ -2326,18 +2260,6 @@
                 "resource": "IR_TEK_V",
                 "fields": [
                     "PRS_TOP_ENP"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "PRE_PRE_AMD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"
@@ -2632,18 +2554,6 @@
         },
         {
             "fields": [
-                "FLX_TRT_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "BEN_CMU_CAT"
             ],
             "reference": {
@@ -2692,30 +2602,6 @@
         },
         {
             "fields": [
-                "BEN_DCD_DTE"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "PRS_HOS_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "PRS_DPN_QLP"
             ],
             "reference": {
@@ -2758,18 +2644,6 @@
                 "resource": "IR_MAJ_V",
                 "fields": [
                     "PRS_TYP_MAJ"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "EXE_SOI_DTD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"
@@ -2830,18 +2704,6 @@
                 "resource": "IR_DPT_V",
                 "fields": [
                     "GEO_DPT_COD"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "EXE_SOI_AMF"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"
@@ -2926,18 +2788,6 @@
                 "resource": "IR_SGN_V",
                 "fields": [
                     "CPT_MVT_SGN"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "PRS_HOS_AMD"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"
