@@ -190,7 +190,7 @@
         {
             "name": "DAT_DEB_FAC",
             "description": "Date d’entrée",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -199,10 +199,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 8
-            }
+            "type_oracle": "string"
         },
         {
             "name": "DAT_DEB_FAC_CTL",
@@ -224,7 +221,7 @@
         {
             "name": "DAT_FIN_FAC",
             "description": "Date de sortie",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -233,10 +230,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 8
-            }
+            "type_oracle": "string"
         },
         {
             "name": "DAT_FIN_FAC_CTL",
@@ -292,7 +286,7 @@
         {
             "name": "DAT_PEC",
             "description": "Prise en charge établie le",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -301,10 +295,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 8
-            }
+            "type_oracle": "string"
         },
         {
             "name": "DAT_PEC_CTL",

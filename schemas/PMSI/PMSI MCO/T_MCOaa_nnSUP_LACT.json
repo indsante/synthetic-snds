@@ -191,7 +191,7 @@
         {
             "name": "ANN_MOI",
             "description": "Année+Mois",
-            "type": "string",
+            "type": "yearmonth",
             "length": "6",
             "dateCreated": "2010",
             "dateDeleted": "",
@@ -200,10 +200,7 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "LAI_PAST_DIS_PERS",

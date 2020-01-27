@@ -314,7 +314,7 @@
         {
             "name": "MOI_ANN_SOR_SEJ",
             "description": "Mois/ Année de sortie du séjour",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -323,10 +323,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "HOS_TYP_UM",
@@ -498,7 +495,7 @@
         {
             "name": "MOI_ANN",
             "description": "Mois Année du RHS",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -507,10 +504,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "JP_HWE",

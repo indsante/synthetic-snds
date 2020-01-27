@@ -386,18 +386,6 @@
         },
         {
             "fields": [
-                "BEN_DCD_DTE"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
                 "ORG_AFF_BEN"
             ],
             "reference": {
@@ -440,30 +428,6 @@
                 "resource": "IR_ORG_V",
                 "fields": [
                     "ORG_NUM"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "BEN_DTE_INS"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "BEN_DTE_MAJ"
-            ],
-            "reference": {
-                "resource": "IR_DTE_V",
-                "fields": [
-                    "DTE_DTE"
                 ]
             },
             "description": "Nomenclature"

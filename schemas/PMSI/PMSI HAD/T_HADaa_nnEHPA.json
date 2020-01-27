@@ -3,7 +3,7 @@
         {
             "name": "ANN",
             "description": "Année période",
-            "type": "string",
+            "type": "year",
             "nomenclature": "-",
             "length": "4",
             "format": "default",
@@ -15,15 +15,12 @@
             ],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "DAT_DEB_CON",
             "description": "Date de début de la convention",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -35,15 +32,12 @@
             ],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 8
-            }
+            "type_oracle": "string"
         },
         {
             "name": "DAT_FIN_CON",
             "description": "Date de fin de la convention",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
@@ -55,10 +49,7 @@
             ],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 8
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_ESMS",
@@ -137,19 +128,16 @@
         {
             "name": "MOI",
             "description": "N° période (mois)",
-            "type": "string",
+            "type": "date",
             "nomenclature": "-",
             "length": "2",
-            "format": "default",
+            "format": "%m",
             "dateCreated": "2014",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ETA_TYP_ESMS",
@@ -171,19 +159,16 @@
         {
             "name": "MOIS",
             "description": "N° période (mois)",
-            "type": "string",
+            "type": "date",
             "length": "2",
             "dateCreated": "2010",
             "dateDeleted": "2012",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default",
+            "format": "%m",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "ETA_NUM_EHPA",

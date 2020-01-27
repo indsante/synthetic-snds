@@ -169,7 +169,7 @@
         {
             "name": "EXE_SOI_AMD",
             "description": "Date d'entrée au format année + mois",
-            "type": "string",
+            "type": "yearmonth",
             "nomenclature": "-",
             "length": "6",
             "format": "default",
@@ -178,10 +178,7 @@
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 6
-            }
+            "type_oracle": "string"
         },
         {
             "name": "EXE_SOI_AMF",

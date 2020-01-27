@@ -31,7 +31,7 @@
         {
             "name": "ANN",
             "description": "Année période",
-            "type": "string",
+            "type": "year",
             "length": "4",
             "dateCreated": "2014",
             "dateDeleted": "",
@@ -40,10 +40,7 @@
             "format": "default",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 4
-            }
+            "type_oracle": "string"
         },
         {
             "name": "COD_ERR",
@@ -65,19 +62,16 @@
         {
             "name": "MOI",
             "description": "Mois période",
-            "type": "string",
+            "type": "date",
             "length": "2",
             "dateCreated": "2014",
             "dateDeleted": "",
             "nomenclature": "-",
             "dateMissing": [],
-            "format": "default",
+            "format": "%m",
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string",
-            "constraints": {
-                "maxLength": 2
-            }
+            "type_oracle": "string"
         },
         {
             "name": "RSA_NUM",
