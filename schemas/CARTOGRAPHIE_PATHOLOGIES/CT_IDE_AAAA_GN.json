@@ -8,6 +8,7 @@
             "length": "18",
             "format": "default",
             "constraints": {
+                "unique": true,
                 "maxLength": 18
             },
             "dateCreated": "",
@@ -49,7 +50,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {

@@ -32,7 +32,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000,
+                "maximum": 999999,
                 "decimals": 2
             }
         },
@@ -51,7 +51,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -69,7 +69,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -87,7 +87,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000000,
+                "maximum": 9999999,
                 "decimals": 2
             }
         },
@@ -106,7 +106,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000,
+                "maximum": 99999999,
                 "decimals": 2
             }
         },
@@ -125,7 +125,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000,
+                "maximum": 99999,
                 "decimals": 4
             }
         },
@@ -161,7 +161,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 99999
             }
         },
         {
@@ -247,7 +247,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000,
+                "maximum": 99999999,
                 "decimals": 2
             }
         },
@@ -283,7 +283,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000000,
+                "maximum": 9999999,
                 "decimals": 2
             }
         },
@@ -336,7 +336,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000,
+                "maximum": 99999999,
                 "decimals": 2
             }
         },
@@ -355,7 +355,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -511,7 +511,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -529,7 +529,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {

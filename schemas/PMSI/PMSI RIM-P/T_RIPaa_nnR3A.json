@@ -79,6 +79,7 @@
             "dateDeleted": "",
             "dateMissing": [],
             "constraints": {
+                "unique": true,
                 "maxLength": 16
             },
             "observation": "",
