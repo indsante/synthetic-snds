@@ -8,8 +8,8 @@
             "length": "3",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 1000
+                "minimum": 1,
+                "maximum": 120
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -26,8 +26,8 @@
             "length": "2",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 100
+                "minimum": 1,
+                "maximum": 44
             },
             "dateCreated": "2008",
             "dateDeleted": "",
@@ -45,7 +45,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 365
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -63,7 +63,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             },
             "dateCreated": "2012",
             "dateDeleted": "",
@@ -81,7 +81,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 2
             },
             "dateCreated": "2012",
             "dateDeleted": "",
@@ -156,7 +156,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000
+                "maximum": 9999
             }
         },
         {
@@ -168,7 +168,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 59
             },
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -185,6 +185,13 @@
             "length": "1",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "1",
+                    "2",
+                    "7",
+                    "8",
+                    "9"
+                ],
                 "maxLength": 1
             },
             "dateCreated": "2005",
@@ -203,7 +210,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             },
             "dateCreated": "2011",
             "dateDeleted": "",
@@ -254,6 +261,12 @@
             "length": "1",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
                 "maxLength": 1
             },
             "dateCreated": "2009",
@@ -305,8 +318,8 @@
             "length": "9",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 1000000000
+                "minimum": 100000000,
+                "maximum": 999999999
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -323,8 +336,8 @@
             "length": "4",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 10000
+                "minimum": 1000,
+                "maximum": 9999
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -341,8 +354,8 @@
             "length": "3",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 1000
+                "maximum": 320,
+                "minimum": 0
             },
             "dateCreated": "2009",
             "dateDeleted": "",
@@ -359,8 +372,8 @@
             "length": "3",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 1000
+                "maximum": 107,
+                "minimum": 0
             },
             "dateCreated": "2009",
             "dateDeleted": "",
@@ -377,8 +390,8 @@
             "length": "4",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 10000
+                "minimum": 1000,
+                "maximum": 9999
             },
             "dateCreated": "2015",
             "dateDeleted": "",
@@ -395,8 +408,8 @@
             "length": "4",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 10000
+                "minimum": 1000,
+                "maximum": 9999
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -413,6 +426,7 @@
             "length": "6",
             "format": "default",
             "constraints": {
+                "minLength": 6,
                 "maxLength": 6
             },
             "dateCreated": "2005",
@@ -444,8 +458,8 @@
             "length": "2",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 100
+                "minimum": -1,
+                "maximum": 20
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -462,6 +476,7 @@
             "length": "6",
             "format": "default",
             "constraints": {
+                "minLength": 6,
                 "maxLength": 6
             },
             "dateCreated": "2005",
@@ -493,6 +508,9 @@
             "length": "2",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "11"
+                ],
                 "maxLength": 2
             },
             "dateCreated": "2005",
@@ -510,6 +528,7 @@
             "length": "15",
             "format": "default",
             "constraints": {
+                "minLength": 15,
                 "maxLength": 15
             },
             "dateCreated": "2011",
@@ -527,6 +546,13 @@
             "length": "1",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "8"
+                ],
                 "maxLength": 1
             },
             "dateCreated": "2009",
@@ -545,7 +571,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000
+                "maximum": 2500
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -563,7 +589,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 100
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -587,7 +613,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -605,7 +631,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -617,7 +643,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 299
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -635,7 +661,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 199
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -653,7 +679,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 399
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -677,7 +703,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -695,7 +721,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -707,7 +733,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 200
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -731,7 +757,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -749,7 +775,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -775,7 +801,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 3
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -799,7 +825,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000
+                "maximum": 9999
             }
         },
         {
@@ -810,8 +836,8 @@
             "length": "10",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 10000000000
+                "minimum": 1000000000,
+                "maximum": 9999999999
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -828,6 +854,9 @@
             "length": "3",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "224"
+                ],
                 "maxLength": 3
             },
             "dateCreated": "2005",
@@ -846,7 +875,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 3
             },
             "dateCreated": "2011",
             "dateDeleted": "",
@@ -863,6 +892,11 @@
             "length": "1",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "",
+                    "1",
+                    "2"
+                ],
                 "maxLength": 1
             },
             "dateCreated": "2009",
@@ -881,7 +915,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10000
+                "maximum": 2999
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -898,6 +932,11 @@
             "length": "1",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "A",
+                    "B",
+                    "."
+                ],
                 "maxLength": 1
             },
             "dateCreated": "2005",
@@ -915,8 +954,8 @@
             "length": "2",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 100
+                "minimum": 10,
+                "maximum": 55
             },
             "dateCreated": "2008",
             "dateDeleted": "",
@@ -996,7 +1035,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 30
             },
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -1014,7 +1053,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 58
             },
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -1032,7 +1071,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 16
             },
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -1050,7 +1089,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 199
             },
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -1068,7 +1107,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 30
             },
             "dateCreated": "2012",
             "dateDeleted": "",
@@ -1085,6 +1124,11 @@
             "length": "3",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "003",
+                    "004",
+                    "005"
+                ],
                 "maxLength": 3
             },
             "dateCreated": "2010",
@@ -1159,7 +1203,7 @@
             "format": "default",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 3
             },
             "dateCreated": "2015",
             "dateDeleted": "",
@@ -1197,7 +1241,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1215,7 +1259,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1233,7 +1277,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1251,7 +1295,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1269,7 +1313,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1287,7 +1331,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1305,7 +1349,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -1323,7 +1367,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1341,7 +1385,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1359,7 +1403,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1377,7 +1421,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -1395,7 +1439,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1413,7 +1457,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1431,7 +1475,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -1449,7 +1493,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000
+                "maximum": 999
             }
         },
         {
@@ -1467,7 +1511,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1485,7 +1529,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1503,7 +1547,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1521,7 +1565,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1539,7 +1583,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1574,7 +1618,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {
@@ -1592,7 +1636,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100000000
+                "maximum": 99999999
             }
         },
         {

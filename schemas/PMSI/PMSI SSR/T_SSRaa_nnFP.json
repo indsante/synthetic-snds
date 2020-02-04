@@ -341,7 +341,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 1000000000,
+                "maximum": 999999999,
                 "decimals": 2
             }
         },

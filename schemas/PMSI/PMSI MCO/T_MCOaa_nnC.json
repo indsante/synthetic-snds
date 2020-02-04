@@ -36,6 +36,9 @@
             "length": "1",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "0"
+                ],
                 "maxLength": 1
             },
             "dateCreated": "2006",
@@ -67,8 +70,8 @@
             "length": "9",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 1000000000
+                "minimum": 100000000,
+                "maximum": 999999999
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -169,6 +172,11 @@
             "length": "3",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "010",
+                    "011",
+                    "012"
+                ],
                 "maxLength": 3
             },
             "dateCreated": "2008",
@@ -242,6 +250,11 @@
             "length": "1",
             "format": "default",
             "constraints": {
+                "enum": [
+                    "0",
+                    "1",
+                    "9"
+                ],
                 "maxLength": 1
             },
             "dateCreated": "2005",
@@ -259,6 +272,7 @@
             "length": "17",
             "format": "default",
             "constraints": {
+                "minLength": 17,
                 "maxLength": 17
             },
             "dateCreated": "2005",
@@ -276,6 +290,7 @@
             "length": "32",
             "format": "default",
             "constraints": {
+                "minLength": 32,
                 "maxLength": 32
             },
             "dateCreated": "2013",
@@ -307,8 +322,8 @@
             "length": "9",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 1000000000
+                "minimum": 100000000,
+                "maximum": 999999999
             },
             "dateCreated": "2015",
             "dateDeleted": "",
@@ -428,7 +443,7 @@
             "type_oracle": "string",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
@@ -453,8 +468,8 @@
             "length": "10",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 10000000000
+                "minimum": 1000000000,
+                "maximum": 9999999999
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -485,8 +500,8 @@
             "length": "5",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 100000
+                "minimum": 10000,
+                "maximum": 99999
             },
             "dateCreated": "2005",
             "dateDeleted": "",
@@ -579,8 +594,8 @@
             "length": "3",
             "format": "default",
             "constraints": {
-                "minimum": 0,
-                "maximum": 1000
+                "minimum": 100,
+                "maximum": 999
             },
             "dateCreated": "2008",
             "dateDeleted": "",

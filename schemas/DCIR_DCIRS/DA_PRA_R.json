@@ -584,7 +584,7 @@
             "type_oracle": "string",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -602,7 +602,7 @@
             "type_oracle": "string",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -637,7 +637,7 @@
             "type_oracle": "string",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -655,7 +655,7 @@
             "type_oracle": "string",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -673,7 +673,7 @@
             "type_oracle": "string",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {

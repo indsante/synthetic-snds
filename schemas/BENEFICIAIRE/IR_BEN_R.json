@@ -8,6 +8,9 @@
             "length": "17",
             "format": "default",
             "constraints": {
+                "minLength": 17,
+                "unique": true,
+                "description": "Unicité fausse sans le rang gémellaire. Contrainte nécessaire pour les clés étrangère du PMSI, qui n'a pas le rang gémellaire",
                 "maxLength": 17
             },
             "dateCreated": "",
@@ -32,7 +35,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 100
+                "maximum": 99
             }
         },
         {
@@ -43,6 +46,7 @@
             "length": "17",
             "format": "default",
             "constraints": {
+                "minLength": 17,
                 "maxLength": 17
             },
             "dateCreated": "",
@@ -60,6 +64,8 @@
             "length": "17",
             "format": "default",
             "constraints": {
+                "unique": true,
+                "minLength": 17,
                 "maxLength": 17
             },
             "dateCreated": "",
@@ -91,6 +97,7 @@
             "length": "17",
             "format": "default",
             "constraints": {
+                "minLength": 17,
                 "maxLength": 17
             },
             "dateCreated": "",
@@ -174,7 +181,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 10
+                "maximum": 9
             }
         },
         {
