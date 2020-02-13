@@ -93,19 +93,8 @@
                     "BEN_NIR_PSA",
                     "BEN_RNG_GEM"
                 ]
-            }
-        },
-        {
-            "fields": [
-                "ben_rng_gem"
-            ],
-            "reference": {
-                "resource": "IR_BER_V",
-                "fields": [
-                    "BEN_RNG_GEM"
-                ]
             },
-            "description": "Nomenclature"
+            "description": "Bidirectionnel"
         }
     ],
     "history": {
