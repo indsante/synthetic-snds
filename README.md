@@ -1,6 +1,6 @@
 # SNDS synthétique
 
-Ce dépôt héberge une version synthétique du SNDS.
+Ce dépôt héberge une version synthétique du SNDS, publiées sous [licence ouverte] `etalab-2.0` (cf [texte](LICENCE.md)) .
  
 Ces données sont générées avec la librairie [tsfaker](https://gitlab.com/healthdatahub/tsfaker), à partir du schéma du SNDS décrit dans [un dépôt GitLab dédié](https://gitlab.com/healthdatahub/schema-snds). 
 
