@@ -5,8 +5,8 @@ Ce dépôt héberge une version synthétique du SNDS.
 Ces données sont générées avec la librairie [tsfaker](https://gitlab.com/healthdatahub/tsfaker), à partir du schéma du SNDS décrit dans [un dépôt GitLab dédié](https://gitlab.com/healthdatahub/schema-snds). 
 
 Notes : 
-- Ce schéma est également exposé dans un [dictionnaire interactif ](https://drees.shinyapps.io/dico-snds/), et via la partie Tables de la [documentation collaborative](https://documentation-snds.health-data-hub.fr/).
-- Ce schéma est incomplet, ce qui se reflète dans les données synthétiques, en particulier par les colonnes qui sont des chaînes de caractère aléatoires
+- Ce schéma est également exposé dans un [dictionnaire interactif ](https://drees.shinyapps.io/dico-snds/), et via la section [Tables de la documentation collaborative](https://documentation-snds.health-data-hub.fr/tables/).
+- Ce schéma est incomplet, ce qui se reflète dans les données synthétiques, en particulier par les colonnes qui sont des chaînes de caractère aléatoires lorsqu'elles ne sont pas associées à des nomenclatures.
 
 ## Organisation du dépôt
 
@@ -26,16 +26,19 @@ La librairie python `tsfaker` (table schema faker) génére des données synthé
 
 ## Génération de nouvelles données
 
-La librairie tsfaker s'installe avec la commande `pip install tsfaker`.
+Vous pouvez télécharger ou cloner ce projet en local pour générer des données avec plus de ligne.
 
-La commande suivante devrait écraser les données existantes, et générer des données identiques au même endroit.
+Il vous faudra pour cela installer la librairie `tsfaker` (commande `pip install tsfaker`).
+
+Exécuter ensuite la commande suivante à la racine du projet. Cela devrait écraser les données existantes avec un nouveau jeux de données.
  
 ```bash
 tsfaker schemas --resources nomenclatures --output schemas --nrows 10 --separator ',' --overwrite  --limit-fk 10
 ```
 
-Paramètres à modifier :
-- `nrows` pour générer plus de lignes ;
-- `separator` pour changer le séparateur ; 
-- `output` pour écrire le résultat dans un nouveau dossier ;
+Paramètres à modifier : 
+- `schemas` en indiquant des sous-dossiers pour génerer seulement une partie des tables ; 
+- `nrows` pour générer un nombre différent de lignes partable ;
+- `separator` pour changer le séparateur de champs ; 
+- `output` pour écrire le résultat dans un autre dossier ;
 - `limit-fk` pour choisir les valeurs des clés étrangères dans un plus grand nombre de lignes de la table référencée (supprimer l'option pour lire toute la table référencée) ;
