@@ -26,11 +26,11 @@ La librairie python `tsfaker` (table schema faker) génére des données synthé
 
 ## Génération de nouvelles données
 
-Vous pouvez télécharger ou cloner ce projet en local pour générer des données avec plus de ligne.
+Vous pouvez télécharger ou cloner ce projet en local pour générer des données avec plus de lignes.
 
-Il vous faudra pour cela installer la librairie `tsfaker` (commande `pip install tsfaker`).
+Il vous faudra installer la librairie `tsfaker` (commande `pip install tsfaker`).
 
-Exécuter ensuite la commande suivante à la racine du projet. Cela devrait écraser les données existantes avec un nouveau jeux de données.
+Exécuter ensuite la commande suivante à la racine du projet. Cela écrasera les données synthétiques du projet par de nouvelles tables.
  
 ```bash
 tsfaker schemas --resources nomenclatures --output schemas --nrows 10 --separator ',' --overwrite  --limit-fk 10
