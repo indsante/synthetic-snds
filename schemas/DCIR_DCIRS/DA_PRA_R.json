@@ -165,7 +165,7 @@
             "name": "PFS_PRA_SPE",
             "description": "Spécialité Médicale PS",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_SPA_D",
             "length": "2",
             "format": "default",
             "dateCreated": "",
@@ -199,7 +199,7 @@
             "name": "PRA_MEP_COD",
             "description": "Mode d'exercice particulier",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_MEP_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
@@ -216,7 +216,7 @@
             "name": "CNV_CNV_COD",
             "description": "Code convention nationale du P.S.",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_CNV_V",
             "length": "1",
             "format": "default",
             "dateCreated": "",
@@ -267,7 +267,7 @@
             "name": "EXC_EXC_NAT",
             "description": "Nature d exercice",
             "type": "string",
-            "nomenclature": "-",
+            "nomenclature": "IR_EPS_V",
             "length": "2",
             "format": "default",
             "dateCreated": "",
@@ -876,6 +876,54 @@
     },
     "observation": "",
     "foreignKeys": [
+        {
+            "fields": [
+                "PFS_PRA_SPE"
+            ],
+            "reference": {
+                "resource": "IR_SPA_D",
+                "fields": [
+                    "PFS_SPA_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PRA_MEP_COD"
+            ],
+            "reference": {
+                "resource": "IR_MEP_V",
+                "fields": [
+                    "PFS_MEP_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "CNV_CNV_COD"
+            ],
+            "reference": {
+                "resource": "IR_CNV_V",
+                "fields": [
+                    "PFS_CNV_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "EXC_EXC_NAT"
+            ],
+            "reference": {
+                "resource": "IR_EPS_V",
+                "fields": [
+                    "EXC_NAT_SNI"
+                ]
+            },
+            "description": "Nomenclature"
+        },
         {
             "fields": [
                 "EXC_FIN_MTF"
