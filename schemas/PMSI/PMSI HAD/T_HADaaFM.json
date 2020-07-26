@@ -83,7 +83,7 @@
             "name": "CCAM_COD",
             "description": "Code CCAM (y compris extension PMSI)",
             "type": "string",
-            "nomenclature": "IR_CCAM_V54",
+            "nomenclature": "IR_CCAM_V63",
             "length": "13",
             "format": "default",
             "dateCreated": "2010",
@@ -663,7 +663,7 @@
                 "CCAM_COD"
             ],
             "reference": {
-                "resource": "IR_CCAM_V54",
+                "resource": "IR_CCAM_V63",
                 "fields": [
                     "CAM_PRS_IDE_COD"
                 ]
