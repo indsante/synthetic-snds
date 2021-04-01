@@ -88,16 +88,19 @@
         {
             "name": "GRC_RET",
             "description": "Code retour GME Etablissement",
-            "type": "boolean",
+            "type": "string",
             "nomenclature": "-",
-            "length": "1",
+            "length": "3",
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "GRC_TOP_ERR",
@@ -153,16 +156,19 @@
         {
             "name": "GRG_RET",
             "description": "Code retour GME GENRHA",
-            "type": "boolean",
+            "type": "string",
             "nomenclature": "-",
-            "length": "1",
+            "length": "3",
             "format": "default",
             "dateCreated": "2005",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "GRG_TOP_ERR",

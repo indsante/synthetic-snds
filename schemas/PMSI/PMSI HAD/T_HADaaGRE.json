@@ -131,16 +131,19 @@
         {
             "name": "GRE_GRP_RET",
             "description": "Groupage Etablissement : code retour",
-            "type": "boolean",
+            "type": "string",
             "nomenclature": "-",
-            "length": "1",
+            "length": "3",
             "format": "default",
             "dateCreated": "2010",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
             "regle_gestion": "",
-            "type_oracle": "string"
+            "type_oracle": "string",
+            "constraints": {
+                "maxLength": 3
+            }
         },
         {
             "name": "GRE_RPPS_VER",
