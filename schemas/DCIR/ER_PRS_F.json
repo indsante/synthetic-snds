@@ -1903,7 +1903,7 @@
             "type": "string",
             "length": "3",
             "nomenclature": "IR_DSP_V",
-            "dateCreated": "",
+            "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -1920,7 +1920,7 @@
             "type": "boolean",
             "length": "1",
             "nomenclature": "-",
-            "dateCreated": "",
+            "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -1938,7 +1938,7 @@
                 "minLength": 4,
                 "maxLength": 4
             },
-            "dateCreated": "",
+            "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -1952,7 +1952,7 @@
             "type": "string",
             "length": "2",
             "nomenclature": "IR_MAJ_V",
-            "dateCreated": "",
+            "dateCreated": "2013",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -1973,7 +1973,7 @@
                 "minLength": 4,
                 "maxLength": 4
             },
-            "dateCreated": "",
+            "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -1987,7 +1987,7 @@
             "type": "integer",
             "length": "2",
             "nomenclature": "-",
-            "dateCreated": "",
+            "dateCreated": "2013",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -2000,30 +2000,12 @@
             }
         },
         {
-            "name": "PRS_PPU_SEC",
-            "description": "Code privé - public de la Prestations",
-            "type": "integer",
-            "length": "1",
-            "nomenclature": "IR_PPU_V",
-            "dateCreated": "",
-            "dateDeleted": "",
-            "dateMissing": [],
-            "format": "default",
-            "observation": "",
-            "regle_gestion": "",
-            "type_oracle": "number",
-            "constraints": {
-                "minimum": 0,
-                "maximum": 9
-            }
-        },
-        {
             "name": "BEN_CTA_TYP",
             "description": "Type de contrat complémentaire",
             "type": "integer",
             "length": "3",
             "nomenclature": "IR_CTA_V",
-            "dateCreated": "",
+            "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -2042,7 +2024,7 @@
             "length": "6",
             "format": "default",
             "nomenclature": "-",
-            "dateCreated": "",
+            "dateCreated": "2011",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
@@ -2059,7 +2041,7 @@
                 "minimum": 11,
                 "maximum": 99
             },
-            "dateCreated": "",
+            "dateCreated": "2012",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -2073,7 +2055,7 @@
             "type": "number",
             "length": "7,2",
             "nomenclature": "-",
-            "dateCreated": "",
+            "dateCreated": "2013",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -2098,7 +2080,7 @@
                 ],
                 "maxLength": 2
             },
-            "dateCreated": "",
+            "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -2120,7 +2102,7 @@
                 ],
                 "maxLength": 2
             },
-            "dateCreated": "",
+            "dateCreated": "2009",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -2139,7 +2121,7 @@
                 "maximum": 100.0,
                 "decimals": 2
             },
-            "dateCreated": "",
+            "dateCreated": "2013",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -2153,7 +2135,7 @@
             "type": "integer",
             "length": "1",
             "nomenclature": "-",
-            "dateCreated": "",
+            "dateCreated": "2013",
             "dateDeleted": "",
             "dateMissing": [],
             "format": "default",
@@ -3005,18 +2987,6 @@
                 "resource": "IR_MAJ_V",
                 "fields": [
                     "PRS_TYP_MAJ"
-                ]
-            },
-            "description": "Nomenclature"
-        },
-        {
-            "fields": [
-                "PRS_PPU_SEC"
-            ],
-            "reference": {
-                "resource": "IR_PPU_V",
-                "fields": [
-                    "PPU_SEC"
                 ]
             },
             "description": "Nomenclature"

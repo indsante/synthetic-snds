@@ -65,7 +65,7 @@
                 "minLength": 3,
                 "maxLength": 3
             },
-            "dateCreated": "",
+            "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
@@ -79,7 +79,7 @@
             "nomenclature": "-",
             "length": "9,2",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
@@ -98,7 +98,7 @@
             "nomenclature": "-",
             "length": "4",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
@@ -116,7 +116,7 @@
             "nomenclature": "IR_TDU_V",
             "length": "1",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
@@ -131,7 +131,7 @@
             "description": "Préfixe du code CIP",
             "type": "integer",
             "nomenclature": "-",
-            "length": "6",
+            "length": "7",
             "format": "default",
             "dateCreated": "2006",
             "dateDeleted": "",
@@ -141,7 +141,7 @@
             "type_oracle": "number",
             "constraints": {
                 "minimum": 0,
-                "maximum": 999999
+                "maximum": 9999999
             }
         },
         {
@@ -151,7 +151,7 @@
             "nomenclature": "IR_MDP_V",
             "length": "1",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",

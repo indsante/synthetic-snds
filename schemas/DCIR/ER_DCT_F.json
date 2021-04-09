@@ -87,7 +87,7 @@
             "nomenclature": "-",
             "length": "15",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
@@ -353,7 +353,7 @@
             "nomenclature": "-",
             "length": "8",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
@@ -366,12 +366,12 @@
         },
         {
             "name": "REM_TYP_AFF",
-            "description": "Type de remboursement affiné                                 9",
+            "description": "Type de remboursement affiné 9",
             "type": "integer",
             "nomenclature": "-",
             "length": "8",
             "format": "default",
-            "dateCreated": "",
+            "dateCreated": "2006",
             "dateDeleted": "",
             "dateMissing": [],
             "observation": "",
@@ -380,6 +380,24 @@
             "constraints": {
                 "minimum": 0,
                 "maximum": 99999999
+            }
+        },
+        {
+            "name": "DCT_FOR_AMO",
+            "description": "Indicateur de forçage part AMO",
+            "type": "integer",
+            "nomenclature": "-",
+            "length": "3",
+            "format": "default",
+            "dateCreated": "2013",
+            "dateDeleted": "",
+            "dateMissing": [],
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "string",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999
             }
         }
     ],
