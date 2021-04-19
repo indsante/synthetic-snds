@@ -1,0 +1,273 @@
+{
+    "fields": [
+        {
+            "name": "GRP",
+            "type": "integer",
+            "format": "default",
+            "description": "Groupe physiopathologique",
+            "length": "2",
+            "nomenclature": "openbio_GRP",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "ACTE",
+            "type": "integer",
+            "format": "default",
+            "description": "Nomenclature des actes de biologie médicale",
+            "length": "4",
+            "nomenclature": "openbio_ACTE",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999
+            }
+        },
+        {
+            "name": "AGE",
+            "type": "integer",
+            "format": "default",
+            "description": "Tranche d'âge (10 ans) du bénéficiaire",
+            "length": "2",
+            "nomenclature": "openbio_AGE_BEN",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "SEXE",
+            "type": "integer",
+            "format": "default",
+            "description": "Sexe du bénéficiaire",
+            "length": "1",
+            "nomenclature": "IR_SEX_V",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9
+            }
+        },
+        {
+            "name": "BEN_REG",
+            "type": "integer",
+            "format": "default",
+            "description": "Région de résidence du bénéficiaire",
+            "length": "2",
+            "nomenclature": "BEN_RES_REG",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "PSP_SPE",
+            "type": "integer",
+            "format": "default",
+            "description": "Spécialité du prescripteur",
+            "length": "2",
+            "nomenclature": "PSP_SPE_SNDS",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "DNB",
+            "type": "integer",
+            "format": "default",
+            "description": "Dénombrement annuel des actes",
+            "length": "7",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999999
+            }
+        },
+        {
+            "name": "REM",
+            "type": "number",
+            "format": "default",
+            "description": "Montant remboursé",
+            "length": "3,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "BSE",
+            "type": "number",
+            "format": "default",
+            "description": "Base du remboursement",
+            "length": "3,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "year",
+            "type": "integer",
+            "format": "default",
+            "description": "Année",
+            "length": "4",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999
+            }
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "OPEN_BIO",
+    "title": "OPEN BIO (base complète sur les dépenses de biologie médicale interrégimes)",
+    "produit": "OPENBIO",
+    "history": {
+        "dateCreated": "2014",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "",
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "GRP"
+            ],
+            "reference": {
+                "resource": "openbio_GRP",
+                "fields": [
+                    "GRP"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ACTE"
+            ],
+            "reference": {
+                "resource": "openbio_ACTE",
+                "fields": [
+                    "ACTE"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "AGE"
+            ],
+            "reference": {
+                "resource": "openbio_AGE_BEN",
+                "fields": [
+                    "AGE_BEN_SNDS"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "SEXE"
+            ],
+            "reference": {
+                "resource": "IR_SEX_V",
+                "fields": [
+                    "SEX_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_REG"
+            ],
+            "reference": {
+                "resource": "BEN_RES_REG",
+                "fields": [
+                    "BEN_RES_REG"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PSP_SPE"
+            ],
+            "reference": {
+                "resource": "PSP_SPE_SNDS",
+                "fields": [
+                    "PSP_SPE_SNDS"
+                ]
+            },
+            "description": "Nomenclature"
+        }
+    ]
+}

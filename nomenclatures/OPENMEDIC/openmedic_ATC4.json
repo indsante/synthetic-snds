@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "ATC4",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "Libell\u00e9 ATC4",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "openmedic_ATC4",
+    "title": "Libell\u00e9 ATC4",
+    "primaryKey": "ATC4"
+}

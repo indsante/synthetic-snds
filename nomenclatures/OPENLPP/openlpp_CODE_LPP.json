@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "CODE_LPP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LIB_CODE_LPP",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "openlpp_CODE_LPP",
+    "title": "L_CODE_LPP",
+    "primaryKey": "CODE_LPP"
+}

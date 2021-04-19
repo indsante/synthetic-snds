@@ -1,0 +1,333 @@
+{
+    "fields": [
+        {
+            "name": "TITRE",
+            "type": "integer",
+            "format": "default",
+            "description": "Titre LPP",
+            "length": "1",
+            "nomenclature": "openlpp_TITRE",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9
+            }
+        },
+        {
+            "name": "sc1",
+            "type": "integer",
+            "format": "default",
+            "description": "Sous-Chapitre Niveau 1",
+            "length": "3",
+            "nomenclature": "openlpp_sc1",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999
+            }
+        },
+        {
+            "name": "sc2",
+            "type": "integer",
+            "format": "default",
+            "description": "Sous-Chapitre Niveau 2",
+            "length": "5",
+            "nomenclature": "openlpp_sc2",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999
+            }
+        },
+        {
+            "name": "CODE_LPP",
+            "type": "integer",
+            "format": "default",
+            "description": "Code fin LPP",
+            "length": "7",
+            "nomenclature": "openlpp_CODE_LPP",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999999
+            }
+        },
+        {
+            "name": "AGE",
+            "type": "integer",
+            "format": "default",
+            "description": "Age au moment des soins",
+            "length": "2",
+            "nomenclature": "openlpp_AGE_BEN",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "SEXE",
+            "type": "integer",
+            "format": "default",
+            "description": "Sexe",
+            "length": "1",
+            "nomenclature": "IR_SEX_V",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9
+            }
+        },
+        {
+            "name": "BEN_REG",
+            "type": "integer",
+            "format": "default",
+            "description": "région de résidence du bénéficiaire",
+            "length": "2",
+            "nomenclature": "BEN_RES_REG",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "PSP_SPE",
+            "type": "integer",
+            "format": "default",
+            "description": "Prescripteur",
+            "length": "2",
+            "nomenclature": "PSP_SPE_SNDS",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "QTE",
+            "type": "integer",
+            "format": "default",
+            "description": "Quantité Remboursée",
+            "length": "7",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999999
+            }
+        },
+        {
+            "name": "REM",
+            "type": "number",
+            "format": "default",
+            "description": "Montant Remboursé",
+            "length": "8,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "BSE",
+            "type": "number",
+            "format": "default",
+            "description": "Base de Remboursement",
+            "length": "8,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99999999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "year",
+            "type": "integer",
+            "format": "default",
+            "description": "Année de soin",
+            "length": "4",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999
+            }
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "OPEN_LPP",
+    "title": "OPEN LPP (base complète sur les dépenses de dispositifs médicaux inscrits à la liste de produits et prestations (LPP)  interrégimes)",
+    "produit": "OPENLPP",
+    "history": {
+        "dateCreated": "2014",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "",
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "TITRE"
+            ],
+            "reference": {
+                "resource": "openlpp_TITRE",
+                "fields": [
+                    "TITRE"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "sc1"
+            ],
+            "reference": {
+                "resource": "openlpp_sc1",
+                "fields": [
+                    "sc1"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "sc2"
+            ],
+            "reference": {
+                "resource": "openlpp_sc2",
+                "fields": [
+                    "sc2"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "CODE_LPP"
+            ],
+            "reference": {
+                "resource": "openlpp_CODE_LPP",
+                "fields": [
+                    "CODE_LPP"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "AGE"
+            ],
+            "reference": {
+                "resource": "openlpp_AGE_BEN",
+                "fields": [
+                    "AGE_BEN_SNDS"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "SEXE"
+            ],
+            "reference": {
+                "resource": "IR_SEX_V",
+                "fields": [
+                    "SEX_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_REG"
+            ],
+            "reference": {
+                "resource": "BEN_RES_REG",
+                "fields": [
+                    "BEN_RES_REG"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PSP_SPE"
+            ],
+            "reference": {
+                "resource": "PSP_SPE_SNDS",
+                "fields": [
+                    "PSP_SPE_SNDS"
+                ]
+            },
+            "description": "Nomenclature"
+        }
+    ]
+}

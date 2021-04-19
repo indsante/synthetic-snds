@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "sc1",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LIB_sc1",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "openlpp_sc1",
+    "title": "L_SC1",
+    "primaryKey": "sc1"
+}

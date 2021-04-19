@@ -1,0 +1,448 @@
+{
+    "fields": [
+        {
+            "name": "ATC1",
+            "type": "string",
+            "format": "default",
+            "description": "Goupe Principal Anatomique",
+            "length": "1",
+            "nomenclature": "openmedic_ATC1",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "maxLength": 1
+            }
+        },
+        {
+            "name": "ATC2",
+            "type": "string",
+            "format": "default",
+            "description": "Sous-Groupe Thérapeutique",
+            "length": "3",
+            "nomenclature": "openmedic_ATC2",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "maxLength": 3
+            }
+        },
+        {
+            "name": "ATC3",
+            "type": "string",
+            "format": "default",
+            "description": "Sous-Groupe Pharmacologique",
+            "length": "4",
+            "nomenclature": "openmedic_ATC3",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "maxLength": 4
+            }
+        },
+        {
+            "name": "ATC4",
+            "type": "string",
+            "format": "default",
+            "description": "Sous-Groupe Chimique",
+            "length": "5",
+            "nomenclature": "openmedic_ATC4",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "maxLength": 5
+            }
+        },
+        {
+            "name": "ATC5",
+            "type": "string",
+            "format": "default",
+            "description": "Sous-Groupe Substance Chimique",
+            "length": "6",
+            "nomenclature": "openmedic_ATC5",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "maxLength": 6
+            }
+        },
+        {
+            "name": "CIP13",
+            "type": "integer",
+            "format": "default",
+            "description": "Code Identification Spécialité Pharmaceutique",
+            "length": "13",
+            "nomenclature": "IR_PHA_R",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999999999999
+            }
+        },
+        {
+            "name": "TOP_GEN",
+            "type": "integer",
+            "format": "default",
+            "description": "Top Générique",
+            "length": "1",
+            "nomenclature": "openmedic_TOP_GEN",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9
+            }
+        },
+        {
+            "name": "GEN_NUM",
+            "type": "integer",
+            "format": "default",
+            "description": "Groupe Générique",
+            "length": "4",
+            "nomenclature": "openmedic_GEN_NUM",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999
+            }
+        },
+        {
+            "name": "AGE",
+            "type": "integer",
+            "format": "default",
+            "description": "Age au moment des soins",
+            "length": "2",
+            "nomenclature": "openmedic_AGE_BEN",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "sexe",
+            "type": "integer",
+            "format": "default",
+            "description": "Sexe",
+            "length": "1",
+            "nomenclature": "IR_SEX_V",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9
+            }
+        },
+        {
+            "name": "BEN_REG",
+            "type": "integer",
+            "format": "default",
+            "description": "Région de Résidence du Bénéficiaire",
+            "length": "2",
+            "nomenclature": "BEN_RES_REG",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "PSP_SPE",
+            "type": "integer",
+            "format": "default",
+            "description": "Prescripteur",
+            "length": "2",
+            "nomenclature": "PSP_SPE_SNDS",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 99
+            }
+        },
+        {
+            "name": "BOITES",
+            "type": "integer",
+            "format": "default",
+            "description": "Nombre de boîtes délivrées",
+            "length": "7",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999999
+            }
+        },
+        {
+            "name": "REM",
+            "type": "number",
+            "format": "default",
+            "description": "Montant Remboursé",
+            "length": "3,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "BSE",
+            "type": "number",
+            "format": "default",
+            "description": "Base de remboursement",
+            "length": "3,2",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 999,
+                "decimals": 2
+            }
+        },
+        {
+            "name": "year",
+            "type": "integer",
+            "format": "default",
+            "description": "",
+            "length": "4",
+            "nomenclature": "-",
+            "dateCreated": "",
+            "dateDeleted": "",
+            "dateMissing": "",
+            "observation": "",
+            "regle_gestion": "",
+            "type_oracle": "number",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 9999
+            }
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "OPEN_MEDIC",
+    "title": "OPEN MEDIC (base complète sur les dépenses de médicaments interrégimes)",
+    "produit": "OPENMEDIC",
+    "history": {
+        "dateCreated": "2014",
+        "dateDeleted": "",
+        "dateMissing": []
+    },
+    "champ": "",
+    "observation": "",
+    "foreignKeys": [
+        {
+            "fields": [
+                "ATC1"
+            ],
+            "reference": {
+                "resource": "openmedic_ATC1",
+                "fields": [
+                    "ATC1"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ATC2"
+            ],
+            "reference": {
+                "resource": "openmedic_ATC2",
+                "fields": [
+                    "ATC2"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ATC3"
+            ],
+            "reference": {
+                "resource": "openmedic_ATC3",
+                "fields": [
+                    "ATC3"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ATC4"
+            ],
+            "reference": {
+                "resource": "openmedic_ATC4",
+                "fields": [
+                    "ATC4"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "ATC5"
+            ],
+            "reference": {
+                "resource": "openmedic_ATC5",
+                "fields": [
+                    "ATC5"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "CIP13"
+            ],
+            "reference": {
+                "resource": "IR_PHA_R",
+                "fields": [
+                    "PHA_CIP_C13"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "TOP_GEN"
+            ],
+            "reference": {
+                "resource": "openmedic_TOP_GEN",
+                "fields": [
+                    "TOP_GEN"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "GEN_NUM"
+            ],
+            "reference": {
+                "resource": "openmedic_GEN_NUM",
+                "fields": [
+                    "GEN_NUM"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "AGE"
+            ],
+            "reference": {
+                "resource": "openmedic_AGE_BEN",
+                "fields": [
+                    "AGE_BEN_SNDS"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "sexe"
+            ],
+            "reference": {
+                "resource": "IR_SEX_V",
+                "fields": [
+                    "SEX_COD"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "BEN_REG"
+            ],
+            "reference": {
+                "resource": "BEN_RES_REG",
+                "fields": [
+                    "BEN_RES_REG"
+                ]
+            },
+            "description": "Nomenclature"
+        },
+        {
+            "fields": [
+                "PSP_SPE"
+            ],
+            "reference": {
+                "resource": "PSP_SPE_SNDS",
+                "fields": [
+                    "PSP_SPE_SNDS"
+                ]
+            },
+            "description": "Nomenclature"
+        }
+    ]
+}

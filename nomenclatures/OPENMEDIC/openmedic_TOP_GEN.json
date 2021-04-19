@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "TOP_GEN",
+            "type": "string",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "Libell\u00e9 Top G\u00e9n\u00e9rique",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "openmedic_TOP_GEN",
+    "title": "Libell\u00e9 Top G\u00e9n\u00e9rique",
+    "primaryKey": "TOP_GEN"
+}
