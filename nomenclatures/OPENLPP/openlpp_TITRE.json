@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "TITRE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LIB_TITRE",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "openlpp_TITRE",
+    "title": "L_TITRE",
+    "primaryKey": "TITRE"
+}

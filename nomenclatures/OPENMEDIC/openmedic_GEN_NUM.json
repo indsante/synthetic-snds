@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "GEN_NUM",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "Libell\u00e9 Num\u00e9ro Groupe G\u00e9n\u00e9rique",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "openmedic_GEN_NUM",
+    "title": "Libell\u00e9 Num\u00e9ro Groupe G\u00e9n\u00e9rique",
+    "primaryKey": "GEN_NUM"
+}

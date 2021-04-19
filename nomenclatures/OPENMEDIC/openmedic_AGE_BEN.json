@@ -1,0 +1,20 @@
+{
+    "fields": [
+        {
+            "name": "AGE_BEN_SNDS",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "AGE_BEN_LIB",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [],
+    "name": "openmedic_AGE_BEN",
+    "title": "Tranches d'\u00e2ge du b\u00e9n\u00e9ficiaire (OPEN_MEDIC)",
+    "primaryKey": "AGE_BEN_SNDS"
+}

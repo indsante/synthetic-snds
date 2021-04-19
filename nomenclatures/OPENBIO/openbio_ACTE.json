@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "ACTE",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LIB_ACTE",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "openbio_ACTE",
+    "title": "L_ACTE",
+    "primaryKey": "ACTE"
+}

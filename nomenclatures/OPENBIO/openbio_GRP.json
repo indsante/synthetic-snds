@@ -1,0 +1,22 @@
+{
+    "fields": [
+        {
+            "name": "GRP",
+            "type": "integer",
+            "format": "default",
+            "role": "code"
+        },
+        {
+            "name": "LIB_GRP",
+            "type": "string",
+            "format": "default",
+            "role": "label"
+        }
+    ],
+    "missingValues": [
+        ""
+    ],
+    "name": "openbio_GRP",
+    "title": "L_GRP",
+    "primaryKey": "GRP"
+}
